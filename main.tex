@@ -4,12 +4,12 @@
 \usepackage{anyfontsize}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage{subfigure}
-\usepackage[vietnam]{babel}
+% \usepackage{subfigure} % Xung đột với subcaption - đã xóa
+\usepackage[vietnamese]{babel}
 \usepackage{indentfirst}
 \usepackage{color}
-\usepackage[utf8]{inputenc}
-\usepackage{emoji}
+% \usepackage[utf8]{inputenc} % Không cần với XeLaTeX - đã xóa
+% \usepackage{emoji} % Chỉ hoạt động với LuaTeX - đã xóa
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
@@ -27,7 +27,7 @@
 \usepackage{fontspec}
 \usepackage[thmmarks, amsmath]{ntheorem}%
 \usepackage{mdframed}
-\usepackage{xeCJK}
+% \usepackage{xeCJK} % Chỉ hoạt động với XeLaTeX, không cần cho document này
 \usepackage{array}
 \usepackage{arydshln}
 \usepackage{pgfgantt}
@@ -35,7 +35,7 @@
 % \usepackage{algorithm}
 % \usepackage{algpseudocode}
 % \usepackage{algcompatible}
-\usepackage{adjustbox}
+% \usepackage{adjustbox} % Duplicate - sẽ load lại với [export] option ở dưới
 \setmainfont{Times New Roman}
 \usepackage{hyperref}
 \usepackage{tabularx}
@@ -96,15 +96,16 @@
 \AddEverypageHook{\Lpagenumber}%
 
 % Can le van ban
-\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+% \usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry} % Duplicate - đã load ở đầu file
 %\usepackage{fancyhdr}
 
 % Numbering for section, subsection, etc.
 \renewcommand{\thesection}{{}}
-\titlespacing{\section}{2pt}{0pt}{2pt}
-\titleformat{\section}{\bfseries\large}{\thesection.}{\hspace0.5em}}{}
+\titleformat{\section}{\bfseries\large}{\thesection.}{0.5em}{}
+\titlespacing{\section}{0pt}{12pt}{6pt}
 \renewcommand{\thesubsection}{\arabic{subsection}}
-\titleformat{\subsection}{\bfseries\large}{\thesubsection.}{\hspace{0.5em}}{}
+\titleformat{\subsection}{\bfseries\large}{\thesubsection.}{0.5em}{}
+\titlespacing{\subsection}{0pt}{12pt}{6pt}
 
 % subsubsbusection
 \titleclass{\subsubsubsection}{straight}[\subsection]
