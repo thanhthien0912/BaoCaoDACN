@@ -4,12 +4,13 @@
 \usepackage{anyfontsize}
 \usepackage{caption}
 \usepackage{subcaption}
-% \usepackage{subfigure} % Xung đột với subcaption - đã xóa
+% \usepackage{subfigure} % deprecated and conflicts with subcaption/tocloft
+% \usepackage[utf8]{inputenc} % XeLaTeX handles UTF-8 natively
 \usepackage[vietnamese]{babel}
 \usepackage{indentfirst}
 \usepackage{color}
-% \usepackage[utf8]{inputenc} % Không cần với XeLaTeX - đã xóa
-% \usepackage{emoji} % Chỉ hoạt động với LuaTeX - đã xóa
+% \usepackage[utf8]{inputenc} % loaded above, before babel
+% \usepackage{emoji} % requires LuaLaTeX; disabled for pdfLaTeX
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
@@ -24,10 +25,11 @@
 \usepackage{everypage}
 \usepackage{titlesec}
 \usepackage{tocloft} % Để tùy chỉnh mục lục
-\usepackage{fontspec}
+\usepackage{fontspec} % XeLaTeX/LuaLaTeX
+% \usepackage[T5]{fontenc} % not needed with XeLaTeX
 \usepackage[thmmarks, amsmath]{ntheorem}%
 \usepackage{mdframed}
-% \usepackage{xeCJK} % Chỉ hoạt động với XeLaTeX, không cần cho document này
+% \usepackage{xeCJK} % XeLaTeX only
 \usepackage{array}
 \usepackage{arydshln}
 \usepackage{pgfgantt}
@@ -35,13 +37,17 @@
 % \usepackage{algorithm}
 % \usepackage{algpseudocode}
 % \usepackage{algcompatible}
-% \usepackage{adjustbox} % Duplicate - sẽ load lại với [export] option ở dưới
-\setmainfont{Times New Roman}
-\usepackage{hyperref}
+% \usepackage{adjustbox} % duplicate; keep [export] variant below
+\setmainfont{Arial}
+% Math font separate from main (avoid Arial in equations)
+\usepackage{unicode-math}
+\setmathfont{texgyretermes-math.otf}
+% \usepackage{newtxtext,newtxmath} % not used with Arial/XeLaTeX
+% \usepackage{hyperref} % duplicate; kept once below with setup
 \usepackage{tabularx}
 \usepackage{float}
-\usepackage{pgfgantt}
-\usepackage{xcolor}
+% \usepackage{pgfgantt} % duplicate; loaded above
+% \usepackage{xcolor} % duplicate; loaded below
 \usepackage{comment}
 %dong khung
 
@@ -82,6 +88,7 @@
 
 \usepackage{tikz}
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 %code 
 \usepackage{listings}
 \newcommand{\Lpagenumber}{\ifdim\textwidth=\linewidth\else\bgroup
@@ -95,17 +102,24 @@
 \egroup\fi}
 \AddEverypageHook{\Lpagenumber}%
 
-% Can le van ban
-% \usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry} % Duplicate - đã load ở đầu file
+% Can le van ban (duplicate of geometry at top) — removed to avoid conflicts
+% \usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 %\usepackage{fancyhdr}
 
 % Numbering for section, subsection, etc.
-\renewcommand{\thesection}{{}}
-\titleformat{\section}{\bfseries\large}{\thesection.}{0.5em}{}
-\titlespacing{\section}{0pt}{12pt}{6pt}
-\renewcommand{\thesubsection}{\arabic{subsection}}
+\renewcommand{\thesection}{\arabic{section}}
+% Section spacing and label formatting (tighter label gap)
+\titlespacing{\section}{0pt}{*1.6}{0.3em}
+% Show "Chương <số>. <Tiêu đề>" with moderate separation
+\titleformat{\section}{\bfseries\large}{Chương\ \thesection.}{0.35em}{}
+% Subsection numbering: 1.1, 1.2, 2.1, 2.2, etc.
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+% Subsubsection numbering: 1.1.1, 1.1.2, etc.
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+% Spacing giữa số và tiêu đề cho các cấp mục
 \titleformat{\subsection}{\bfseries\large}{\thesubsection.}{0.5em}{}
-\titlespacing{\subsection}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{*1.0}{0.3em}
+\titleformat{\subsubsection}{\bfseries\normalsize}{\thesubsubsection.}{0.5em}{}
 
 % subsubsbusection
 \titleclass{\subsubsubsection}{straight}[\subsection]
@@ -115,7 +129,7 @@
 \renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
 
 \titleformat{\subsubsubsection}
-  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{0em}{}
 \titlespacing*{\subsubsubsection}
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
@@ -131,13 +145,28 @@
 \def\toclevel@subsubsubsection{4}
 \def\toclevel@paragraph{5}
 \def\toclevel@paragraph{6}
-\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+% Tighten ToC spacing for custom subsubsubsection level
+\def\l@subsubsubsection{\@dottedtocline{4}{3.8em}{2.6em}}
 \def\l@paragraph{\@dottedtocline{5}{10em}{5em}}
 \def\l@subparagraph{\@dottedtocline{6}{14em}{6em}}
 \makeatother
 
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{4}
+% ToC entries: prefix with "Chương"; ensure spacing and adequate widths
+\renewcommand{\cftsecpresnum}{Chương~}
+\renewcommand{\cftsecaftersnum}{.\space}
+% Set ToC indents and number widths (allow for "Chương" prefix)
+\cftsetindents{section}{0em}{6.8em}
+\setlength{\cftsecnumwidth}{6.8em}
+\cftsetindents{subsection}{1.5em}{2.5em}
+\setlength{\cftsubsecnumwidth}{2.5em}
+\cftsetindents{subsubsection}{3.2em}{3.8em}
+\setlength{\cftsubsubsecnumwidth}{3.8em}
+% subsubsubsection is custom; controlled by \l@subsubsubsection
+\newlength{\cftsubsubsubsectionindent}
+\newlength{\cftsubsubsubsectionnumwidth}
+\cftsetindents{subsubsubsection}{5.0em}{2.6em}
 
 
 % Numbering for label itemization
@@ -154,9 +183,9 @@
 
 \renewcommand{\listtablename}{DANH SÁCH BẢNG}
 
-\renewcommand{\tablename}{}
+\renewcommand{\tablename}{Bảng}
 
-\renewcommand{\figurename}{}
+\renewcommand{\figurename}{Hình}
 
 \let\sectionautorefname\sectionautorefname
 % \let\subsectionautorefname\sectionautorefname
@@ -197,7 +226,7 @@
 
 
 \begin{document}
- \pagenumbering{gobble}
+\pagenumbering{gobble}
 % \captionsetup{justification=centering}
 
 \captionsetup[figure]{labelformat=simple, labelsep=period}

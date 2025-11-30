@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.26)  1 DEC 2025 01:37
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.26)  1 DEC 2025 02:23
  restricted system commands enabled.
  file:line:error style messages enabled.
 **d:/HUTECH/HK11/BaoCaoDACN/main.tex
@@ -1201,38 +1201,457 @@ luaotfload | cache : Lookup cache loaded from C:/Users/thanh/AppData/Local/MiKTe
 X/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: 
-(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
-(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)             Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Times New
-(fontspec)             Roman:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"name:Times
-(fontspec)             New
-(fontspec)             Roman:mode=node;script=latn;language=dflt;+tlig;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Times New
-(fontspec)             Roman/B:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"name:Times New
-(fontspec)             Roman/B:mode=node;script=latn;language=dflt;+tlig;+smcp;
-"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Times New
-(fontspec)             Roman/I:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"name:Times New
-(fontspec)             Roman/I:mode=node;script=latn;language=dflt;+tlig;+smcp;
-"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Times
-(fontspec)             New
-(fontspec)             Roman/BI:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"name:Times New
-(fontspec)             Roman/BI:mode=node;script=latn;language=dflt;+tlig;+smcp
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:Arial:mode=node;script=latn;language=dflt;+tlig
 ;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"name:Arial:mode=node;script=latn;language=dflt;+tlig
+;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:Arial/B:mode=node;script=latn;language=dflt;+tl
+ig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:Arial/B:mode=node;script=latn;language=dflt;+tl
+ig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:Arial/I:mode=node;script=latn;language=dflt;+tl
+ig;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:Arial/BI:mode=node;script=latn;language=dflt;+t
+lig;"
 
 
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-ma
+th.sty
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-ma
+th-luatex.sty
+Package: unicode-math-luatex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaL
+aTeX
+
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3k
+eys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+LaTeX Encoding Info:    Redeclaring text command \capitalcedilla (encoding TS1)
+ on input line 49.
+LaTeX Encoding Info:    Redeclaring text command \capitalogonek (encoding TS1) 
+on input line 52.
+LaTeX Encoding Info:    Redeclaring text command \capitalgrave (encoding TS1) o
+n input line 55.
+LaTeX Encoding Info:    Redeclaring text command \capitalacute (encoding TS1) o
+n input line 56.
+LaTeX Encoding Info:    Redeclaring text command \capitalcircumflex (encoding T
+S1) on input line 57.
+LaTeX Encoding Info:    Redeclaring text command \capitaltilde (encoding TS1) o
+n input line 58.
+LaTeX Encoding Info:    Redeclaring text command \capitaldieresis (encoding TS1
+) on input line 59.
+LaTeX Encoding Info:    Redeclaring text command \capitalhungarumlaut (encoding
+ TS1) on input line 60.
+LaTeX Encoding Info:    Redeclaring text command \capitalring (encoding TS1) on
+ input line 61.
+LaTeX Encoding Info:    Redeclaring text command \capitalcaron (encoding TS1) o
+n input line 62.
+LaTeX Encoding Info:    Redeclaring text command \capitalbreve (encoding TS1) o
+n input line 63.
+LaTeX Encoding Info:    Redeclaring text command \capitalmacron (encoding TS1) 
+on input line 64.
+LaTeX Encoding Info:    Redeclaring text command \capitaldotaccent (encoding TS
+1) on input line 65.
+LaTeX Encoding Info:    Redeclaring text command \t (encoding TS1) on input lin
+e 66.
+LaTeX Encoding Info:    Redeclaring text command \capitaltie (encoding TS1) on 
+input line 67.
+LaTeX Encoding Info:    Redeclaring text command \newtie (encoding TS1) on inpu
+t line 68.
+LaTeX Encoding Info:    Redeclaring text command \capitalnewtie (encoding TS1) 
+on input line 69.
+LaTeX Encoding Info:    Redeclaring text symbol \textcapitalcompwordmark (encod
+ing TS1) on input line 70.
+LaTeX Encoding Info:    Redeclaring text symbol \textascendercompwordmark (enco
+ding TS1) on input line 71.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightbase (encodin
+g TS1) on input line 72.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightdblbase (enco
+ding TS1) on input line 73.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwelveudash (encoding TS1)
+ on input line 74.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequartersemdash (encod
+ing TS1) on input line 75.
+LaTeX Encoding Info:    Redeclaring text symbol \textleftarrow (encoding TS1) o
+n input line 76.
+LaTeX Encoding Info:    Redeclaring text symbol \textrightarrow (encoding TS1) 
+on input line 77.
+LaTeX Encoding Info:    Redeclaring text symbol \textblank (encoding TS1) on in
+put line 78.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollar (encoding TS1) on i
+nput line 79.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotesingle (encoding TS1)
+ on input line 80.
+LaTeX Encoding Info:    Redeclaring text command \textasteriskcentered (encodin
+g TS1) on input line 81.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphen (encoding TS1) o
+n input line 92.
+LaTeX Encoding Info:    Redeclaring text symbol \textfractionsolidus (encoding 
+TS1) on input line 93.
+LaTeX Encoding Info:    Redeclaring text symbol \textzerooldstyle (encoding TS1
+) on input line 94.
+LaTeX Encoding Info:    Redeclaring text symbol \textoneoldstyle (encoding TS1)
+ on input line 95.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwooldstyle (encoding TS1)
+ on input line 96.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreeoldstyle (encoding TS
+1) on input line 97.
+LaTeX Encoding Info:    Redeclaring text symbol \textfouroldstyle (encoding TS1
+) on input line 98.
+LaTeX Encoding Info:    Redeclaring text symbol \textfiveoldstyle (encoding TS1
+) on input line 99.
+LaTeX Encoding Info:    Redeclaring text symbol \textsixoldstyle (encoding TS1)
+ on input line 100.
+LaTeX Encoding Info:    Redeclaring text symbol \textsevenoldstyle (encoding TS
+1) on input line 101.
+LaTeX Encoding Info:    Redeclaring text symbol \texteightoldstyle (encoding TS
+1) on input line 102.
+LaTeX Encoding Info:    Redeclaring text symbol \textnineoldstyle (encoding TS1
+) on input line 103.
+LaTeX Encoding Info:    Redeclaring text symbol \textlangle (encoding TS1) on i
+nput line 104.
+LaTeX Encoding Info:    Redeclaring text symbol \textminus (encoding TS1) on in
+put line 105.
+LaTeX Encoding Info:    Redeclaring text symbol \textrangle (encoding TS1) on i
+nput line 106.
+LaTeX Encoding Info:    Redeclaring text symbol \textmho (encoding TS1) on inpu
+t line 107.
+LaTeX Encoding Info:    Redeclaring text symbol \textbigcircle (encoding TS1) o
+n input line 108.
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding TS1) on
+ input line 109.
+LaTeX Encoding Info:    Redeclaring text symbol \textohm (encoding TS1) on inpu
+t line 115.
+LaTeX Encoding Info:    Redeclaring text symbol \textlbrackdbl (encoding TS1) o
+n input line 116.
+LaTeX Encoding Info:    Redeclaring text symbol \textrbrackdbl (encoding TS1) o
+n input line 117.
+LaTeX Encoding Info:    Redeclaring text symbol \textuparrow (encoding TS1) on 
+input line 118.
+LaTeX Encoding Info:    Redeclaring text symbol \textdownarrow (encoding TS1) o
+n input line 119.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciigrave (encoding TS1) 
+on input line 120.
+LaTeX Encoding Info:    Redeclaring text symbol \textborn (encoding TS1) on inp
+ut line 121.
+LaTeX Encoding Info:    Redeclaring text symbol \textdivorced (encoding TS1) on
+ input line 122.
+LaTeX Encoding Info:    Redeclaring text symbol \textdied (encoding TS1) on inp
+ut line 123.
+LaTeX Encoding Info:    Redeclaring text symbol \textleaf (encoding TS1) on inp
+ut line 124.
+LaTeX Encoding Info:    Redeclaring text symbol \textmarried (encoding TS1) on 
+input line 125.
+LaTeX Encoding Info:    Redeclaring text symbol \textmusicalnote (encoding TS1)
+ on input line 126.
+LaTeX Encoding Info:    Redeclaring text symbol \texttildelow (encoding TS1) on
+ input line 127.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphenchar (encoding TS
+1) on input line 128.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciibreve (encoding TS1) 
+on input line 129.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciicaron (encoding TS1) 
+on input line 130.
+LaTeX Encoding Info:    Redeclaring text symbol \textacutedbl (encoding TS1) on
+ input line 131.
+LaTeX Encoding Info:    Redeclaring text symbol \textgravedbl (encoding TS1) on
+ input line 132.
+LaTeX Encoding Info:    Redeclaring text symbol \textdagger (encoding TS1) on i
+nput line 133.
+LaTeX Encoding Info:    Redeclaring text symbol \textdaggerdbl (encoding TS1) o
+n input line 134.
+LaTeX Encoding Info:    Redeclaring text symbol \textbardbl (encoding TS1) on i
+nput line 135.
+LaTeX Encoding Info:    Redeclaring text symbol \textperthousand (encoding TS1)
+ on input line 136.
+LaTeX Encoding Info:    Redeclaring text symbol \textbullet (encoding TS1) on i
+nput line 137.
+LaTeX Encoding Info:    Redeclaring text symbol \textcelsius (encoding TS1) on 
+input line 138.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollaroldstyle (encoding T
+S1) on input line 139.
+LaTeX Encoding Info:    Redeclaring text symbol \textcentoldstyle (encoding TS1
+) on input line 140.
+LaTeX Encoding Info:    Redeclaring text symbol \textflorin (encoding TS1) on i
+nput line 141.
+LaTeX Encoding Info:    Redeclaring text symbol \textcolonmonetary (encoding TS
+1) on input line 142.
+LaTeX Encoding Info:    Redeclaring text symbol \textwon (encoding TS1) on inpu
+t line 143.
+LaTeX Encoding Info:    Redeclaring text symbol \textnaira (encoding TS1) on in
+put line 144.
+LaTeX Encoding Info:    Redeclaring text symbol \textguarani (encoding TS1) on 
+input line 145.
+LaTeX Encoding Info:    Redeclaring text symbol \textpeso (encoding TS1) on inp
+ut line 146.
+LaTeX Encoding Info:    Redeclaring text symbol \textlira (encoding TS1) on inp
+ut line 147.
+LaTeX Encoding Info:    Redeclaring text symbol \textrecipe (encoding TS1) on i
+nput line 148.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobang (encoding TS1)
+ on input line 149.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobangdown (encoding 
+TS1) on input line 150.
+LaTeX Encoding Info:    Redeclaring text symbol \textdong (encoding TS1) on inp
+ut line 151.
+LaTeX Encoding Info:    Redeclaring text symbol \texttrademark (encoding TS1) o
+n input line 152.
+LaTeX Encoding Info:    Redeclaring text symbol \textpertenthousand (encoding T
+S1) on input line 153.
+LaTeX Encoding Info:    Redeclaring text symbol \textpilcrow (encoding TS1) on 
+input line 154.
+LaTeX Encoding Info:    Redeclaring text symbol \textbaht (encoding TS1) on inp
+ut line 155.
+LaTeX Encoding Info:    Redeclaring text symbol \textnumero (encoding TS1) on i
+nput line 156.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiscount (encoding TS1) on
+ input line 157.
+LaTeX Encoding Info:    Redeclaring text symbol \textestimated (encoding TS1) o
+n input line 158.
+LaTeX Encoding Info:    Redeclaring text symbol \textopenbullet (encoding TS1) 
+on input line 159.
+LaTeX Encoding Info:    Redeclaring text symbol \textservicemark (encoding TS1)
+ on input line 160.
+LaTeX Encoding Info:    Redeclaring text symbol \textlquill (encoding TS1) on i
+nput line 161.
+LaTeX Encoding Info:    Redeclaring text symbol \textrquill (encoding TS1) on i
+nput line 162.
+LaTeX Encoding Info:    Redeclaring text symbol \textcent (encoding TS1) on inp
+ut line 163.
+LaTeX Encoding Info:    Redeclaring text symbol \textsterling (encoding TS1) on
+ input line 164.
+LaTeX Encoding Info:    Redeclaring text symbol \textcurrency (encoding TS1) on
+ input line 165.
+LaTeX Encoding Info:    Redeclaring text symbol \textyen (encoding TS1) on inpu
+t line 166.
+LaTeX Encoding Info:    Redeclaring text symbol \textbrokenbar (encoding TS1) o
+n input line 167.
+LaTeX Encoding Info:    Redeclaring text symbol \textsection (encoding TS1) on 
+input line 168.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciidieresis (encoding TS
+1) on input line 169.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyright (encoding TS1) o
+n input line 170.
+LaTeX Encoding Info:    Redeclaring text symbol \textordfeminine (encoding TS1)
+ on input line 171.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyleft (encoding TS1) on
+ input line 172.
+LaTeX Encoding Info:    Redeclaring text symbol \textlnot (encoding TS1) on inp
+ut line 173.
+LaTeX Encoding Info:    Redeclaring text symbol \textcircledP (encoding TS1) on
+ input line 174.
+LaTeX Encoding Info:    Redeclaring text symbol \textregistered (encoding TS1) 
+on input line 175.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciimacron (encoding TS1)
+ on input line 176.
+LaTeX Encoding Info:    Redeclaring text symbol \textdegree (encoding TS1) on i
+nput line 177.
+LaTeX Encoding Info:    Redeclaring text symbol \textpm (encoding TS1) on input
+ line 178.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwosuperior (encoding TS1)
+ on input line 179.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreesuperior (encoding TS
+1) on input line 180.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciiacute (encoding TS1) 
+on input line 181.
+LaTeX Encoding Info:    Redeclaring text symbol \textmu (encoding TS1) on input
+ line 182.
+LaTeX Encoding Info:    Redeclaring text symbol \textparagraph (encoding TS1) o
+n input line 183.
+LaTeX Encoding Info:    Redeclaring text symbol \textperiodcentered (encoding T
+S1) on input line 184.
+LaTeX Encoding Info:    Redeclaring text symbol \textreferencemark (encoding TS
+1) on input line 185.
+LaTeX Encoding Info:    Redeclaring text symbol \textonesuperior (encoding TS1)
+ on input line 186.
+LaTeX Encoding Info:    Redeclaring text symbol \textordmasculine (encoding TS1
+) on input line 187.
+LaTeX Encoding Info:    Redeclaring text symbol \textsurd (encoding TS1) on inp
+ut line 188.
+LaTeX Encoding Info:    Redeclaring text symbol \textonequarter (encoding TS1) 
+on input line 189.
+LaTeX Encoding Info:    Redeclaring text symbol \textonehalf (encoding TS1) on 
+input line 190.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequarters (encoding TS
+1) on input line 191.
+LaTeX Encoding Info:    Redeclaring text symbol \texteuro (encoding TS1) on inp
+ut line 192.
+LaTeX Encoding Info:    Redeclaring text symbol \texttimes (encoding TS1) on in
+put line 193.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on inpu
+t line 194.
+))
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/lualatex/lualatex-math/lualat
+ex-math.sty
+Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting wit
+h LuaLaTeX
+Lua module: lualatex-math 2013/08/03 v1.3 Patches for mathematics typesetting wi
+th LuaLaTeX)
+\g__um_fam_int=\count399
+\g__um_fonts_used_int=\count400
+\l__um_primecount_int=\count401
+\g__um_primekern_muskip=\muskip18
+
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-ma
+th-table.tex)))
+
+Package fontspec Info: 
+(fontspec)             Font family 'texgyretermes-math.otf(0)' created for
+(fontspec)             font 'texgyretermes-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,RawFeature={mathfontdimen=xetex}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[texgyretermes-math.otf]:mode=base;script=math;langu
+age=dflt;mathfontdimen=xetex;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'texgyretermes-math.otf(1)' created for
+(fontspec)             font 'texgyretermes-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,SizeFeatures={{Size=8.7-},{Size=6.45-8.7,Font=texgyreterme
+s-math.otf,Style=MathScript},{Size=-6.45,Font=texgyretermes-math.otf,Style=Math
+ScriptScript}},RawFeature={mathfontdimen=xetex}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.7->"[texgyretermes-math.otf]:mode=base;script=math;la
+nguage=dflt;mathfontdimen=xetex;"<6.45-8.7>"[texgyretermes-math.otf]:mode=base;
+script=math;language=dflt;mathfontdimen=xetex;+ssty=0;"<-6.45>"[texgyretermes-m
+ath.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=1;"
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 47.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/texgyretermes-math.otf(1)/m/n on inp
+ut line 47.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 47.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/texgyretermes-math.otf(1)/b/n on in
+put line 47.
+
+Package fontspec Info: 
+(fontspec)             Font family 'texgyretermes-math.otf(2)' created for
+(fontspec)             font 'texgyretermes-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,SizeFeatures={{Size=8.7-},{Size=6.45-8.7,Font=texgyreterme
+s-math.otf,Style=MathScript},{Size=-6.45,Font=texgyretermes-math.otf,Style=Math
+ScriptScript}},RawFeature={mathfontdimen=xetex},RawFeature={mathfontdimen=tex2}
+].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.7->"[texgyretermes-math.otf]:mode=base;script=math;la
+nguage=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"<6.45-8.7>"[texgyretermes-m
+ath.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=
+tex2;+ssty=0;"<-6.45>"[texgyretermes-math.otf]:mode=base;script=math;language=d
+flt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=1;"
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 47.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/texgyretermes-math.otf(2)/m/n on in
+put line 47.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 47.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/texgyretermes-math.otf(2)/b/n on in
+put line 47.
+
+Package fontspec Info: 
+(fontspec)             Font family 'texgyretermes-math.otf(3)' created for
+(fontspec)             font 'texgyretermes-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,SizeFeatures={{Size=8.7-},{Size=6.45-8.7,Font=texgyreterme
+s-math.otf,Style=MathScript},{Size=-6.45,Font=texgyretermes-math.otf,Style=Math
+ScriptScript}},RawFeature={mathfontdimen=xetex},RawFeature={mathfontdimen=tex3}
+].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.7->"[texgyretermes-math.otf]:mode=base;script=math;la
+nguage=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<6.45-8.7>"[texgyretermes-m
+ath.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=
+tex3;+ssty=0;"<-6.45>"[texgyretermes-math.otf]:mode=base;script=math;language=d
+flt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=1;"
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 4
+7.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/texgyretermes-math.otf(3)/m/n on in
+put line 47.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 47.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/texgyretermes-math.otf(3)/b/n on in
+put line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+
+
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+
+
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen329
+\TX@old@table=\dimen330
+\TX@old@col=\dimen331
+\TX@target=\dimen332
+\TX@delta=\dimen333
+\TX@cols=\count402
+\TX@ftn=\toks60
+)
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count403
+\float@exts=\toks61
+\float@box=\box90
+\@float@everytoks=\toks62
+\@floatcapt=\box91
+)
+(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
@@ -1251,22 +1670,22 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count399
+\c@section@level=\count404
 )
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen329
-\Hy@linkcounter=\count400
-\Hy@pagecounter=\count401
+\@linkdim=\dimen334
+\Hy@linkcounter=\count405
+\Hy@pagecounter=\count406
  (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 ) (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count402
+\Hy@SavedSpaceFactor=\count407
  (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 )
@@ -1277,14 +1696,14 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count403
+\c@Hy@tempcnt=\count408
 
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
-\Urlmuskip=\muskip18
+\Urlmuskip=\muskip19
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen330
+\XeTeXLinkMargin=\dimen335
 
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1294,9 +1713,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count404
-\Field@Width=\dimen331
-\Fld@charsize=\dimen332
+\Fld@menulength=\count409
+\Field@Width=\dimen336
+\Fld@charsize=\dimen337
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -1304,16 +1723,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count405
-\c@Item=\count406
-\c@Hfootnote=\count407
+\Hy@abspage=\count410
+\c@Item=\count411
+\c@Hfootnote=\count412
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2025-07-12 v7.01o Hyperref driver for luaTeX
-\Fld@listcount=\count408
-\c@bookmark@seq@number=\count409
+\Fld@listcount=\count413
+\c@bookmark@seq@number=\count414
 
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
@@ -1328,29 +1747,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip190
 )
-(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen333
-\TX@old@table=\dimen334
-\TX@old@col=\dimen335
-\TX@target=\dimen336
-\TX@delta=\dimen337
-\TX@cols=\count410
-\TX@ftn=\toks60
-)
-(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count411
-\float@exts=\toks61
-\float@box=\box90
-\@float@everytoks=\toks62
-\@floatcapt=\box91
-)
-(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/comment/comment.sty
-\CommentStream=\write4
-
-Excluding comment 'comment')
-Package hyperref Info: Option `colorlinks' set `true' on input line 57.
+Package hyperref Info: Option `colorlinks' set `true' on input line 63.
 
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
@@ -1370,7 +1767,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks63
 \XKV@tempa@toks=\toks64
 )
-\XKV@depth=\count412
+\XKV@depth=\count415
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/adjcalc.sty
@@ -1409,7 +1806,7 @@ File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box93
-\sift@deathcycles=\count413
+\sift@deathcycles=\count416
 \@vwid@loff=\dimen354
 \@vwid@roff=\dimen355
 )
@@ -1430,8 +1827,8 @@ Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
 \t@pgfplots@tokb=\toks66
 \t@pgfplots@tokc=\toks67
 \pgfplots@tmpa=\dimen356
-\c@pgfplots@coordindex=\count414
-\c@pgfplots@scanlineindex=\count415
+\c@pgfplots@coordindex=\count417
+\c@pgfplots@scanlineindex=\count418
 
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfplots
 sysgeneric.code.tex))
@@ -1464,13 +1861,13 @@ e/pgfplotsliststructure.code.tex)
 e/pgfplotsliststructureext.code.tex)
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
 e/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count416
+\c@pgfplotsarray@tmp=\count419
 )
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
 e/pgfplotsmatrix.code.tex)
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtable/pgf
 plotstableshared.code.tex
-\c@pgfplotstable@counta=\count417
+\c@pgfplotstable@counta=\count420
 \t@pgfplotstable@a=\toks71
 )
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
@@ -1483,7 +1880,7 @@ sbinary.data.code.tex))
 sutil.verb.code.tex)
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgflibr
 arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count418
+\c@pgfplotslibrarysurf@no=\count421
 
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgflibra
 rypgfplots.surfshading.pgfsys-luatex.def)))
@@ -1520,7 +1917,7 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen359
 \pgfdecoratedinputsegmentremainingdistance=\dimen360
 \pgf@decorate@distancetomove=\dimen361
-\pgf@decorate@repeatstate=\count419
+\pgf@decorate@repeatstate=\count422
 \pgfdecorationsegmentamplitude=\dimen362
 \pgfdecorationsegmentlength=\dimen363
 )
@@ -1536,7 +1933,7 @@ z/libraries/tikzlibrarydecorations.pathreplacing.code.tex
 ions/pgflibrarydecorations.pathreplacing.code.tex))
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/tikzlib
 rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count420
+\pgfplots@numplots=\count423
 \pgfplots@xmin@reg=\dimen364
 \pgfplots@xmax@reg=\dimen365
 \pgfplots@ymin@reg=\dimen366
@@ -1553,17 +1950,17 @@ aryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty
-\lst@mode=\count421
+\lst@mode=\count424
 \lst@gtempboxa=\box95
 \lst@token=\toks72
-\lst@length=\count422
+\lst@length=\count425
 \lst@currlwidth=\dimen370
-\lst@column=\count423
-\lst@pos=\count424
+\lst@column=\count426
+\lst@pos=\count427
 \lst@lostspace=\dimen371
 \lst@width=\dimen372
-\lst@newlines=\count425
-\lst@lineno=\count426
+\lst@newlines=\count428
+\lst@lineno=\count429
 \lst@maxwidth=\dimen373
 
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.sty
@@ -1571,15 +1968,17 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count427
-\lst@skipnumbers=\count428
+\c@lstnumber=\count430
+\lst@skipnumbers=\count431
 \lst@framebox=\box96
 )
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
-\c@subsubsubsection=\count429
+\c@subsubsubsection=\count432
+\cftsubsubsubsectionindent=\skip192
+\cftsubsubsubsectionnumwidth=\skip193
 
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/koma-script/scrextend.s
 ty
@@ -1648,11 +2047,11 @@ Package filecontents Warning: This package is obsolete. Disabling it and
 (filecontents)                defined by the LaTeX kernel.
 
 )
-\c@currdefictr=\count430
-\c@enddefictr=\count431
-\c@defi=\count432
-\c@currexamplectr=\count433
-\c@endexamplectr=\count434
+\c@currdefictr=\count433
+\c@enddefictr=\count434
+\c@defi=\count435
+\c@currexamplectr=\count436
+\c@endexamplectr=\count437
 
 
 LaTeX Warning: Unused global option(s):
@@ -1683,26 +2082,26 @@ LaTeX Warning: Label `fig:tim_kiem_nang_cao@cref' multiply defined.
 )
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 199.
-LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1754,16 +2153,16 @@ Package caption Info: End \AtBeginDocument code.
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count435
+\scratchcounter=\count438
 \scratchdimen=\dimen376
 \scratchbox=\box97
-\nofMPsegments=\count436
-\nofMParguments=\count437
+\nofMPsegments=\count439
+\nofMParguments=\count440
 \everyMPshowfont=\toks73
-\MPscratchCnt=\count438
+\MPscratchCnt=\count441
 \MPscratchDim=\dimen377
-\MPnumerator=\count439
-\makeMPintoPDFobject=\count440
+\MPnumerator=\count442
+\makeMPintoPDFobject=\count443
 \everyMPtoPDFconversion=\toks74
 )
 (C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
@@ -1776,108 +2175,69 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-
-Package fontspec Info: 
-(fontspec)             Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
-
-\symlegacymaths=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 199.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 199.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 199.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 199.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 199.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 199.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 199.
-LaTeX Font Info:    Redeclaring math accent \check on input line 199.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 199.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 199.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 199.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 199.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 199.
-
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
-99.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 199.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-199.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 199.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/texgyretermes-math.otf(1)/m/n --> TU/Arial(0)/m/n on
+ input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 199.
+(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-199.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/b/n on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 199.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 199.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 199.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 199.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 199.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 228.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 199.
-Package hyperref Info: Link coloring ON on input line 199.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 228.
+Package hyperref Info: Link coloring ON on input line 228.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 
 \openout5 = main.out
 
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
-your preamble.
- on input line 199.
-
-\c@lstlisting=\count441
+\c@lstlisting=\count444
 (./components/title.tex
-<image/logoHutech1.png, id=242, 845.0772pt x 271.0125pt>
+<image/logoHutech1.png, id=240, 845.0772pt x 271.0125pt>
 File: image/logoHutech1.png Graphic file (type png)
 <use image/logoHutech1.png>
 Package luatex.def Info: image/logoHutech1.png  used on input line 15.
 (luatex.def)             Requested size: 154.99577pt x 49.99591pt.
 LaTeX Font Info:    Calculating math sizes for size <13> on input line 20.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 
-
-(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
-
-
-(C:/Users/thanh/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 [1
 
 {C:/Users/thanh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./image/logoHu
 tech1.png>]) (./main.toc
+Overfull \hbox (5.95529pt too wide) detected at line 10
+\TU/Arial(0)/m/n/13 1.2.3.1 
+ []
+
+
+Overfull \hbox (5.95529pt too wide) detected at line 11
+\TU/Arial(0)/m/n/13 1.2.3.2 
+ []
+
+
+Overfull \hbox (5.95529pt too wide) detected at line 18
+\TU/Arial(0)/m/n/13 1.4.4.1 
+ []
+
+
+Overfull \hbox (5.95529pt too wide) detected at line 19
+\TU/Arial(0)/m/n/13 1.4.4.2 
+ []
+
+
+Overfull \hbox (5.95529pt too wide) detected at line 20
+\TU/Arial(0)/m/n/13 1.4.4.3 
+ []
+
+
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.'
@@ -1919,54 +2279,104 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [4]
 
 [5]
+Overfull \hbox (0.49788pt too wide) in paragraph at lines 93--94
+[]\TU/Arial(0)/b/n/13 Fron-tend\TU/Arial(0)/m/n/13 : Re-act.js với component-b
+ased ar-chi-tec-ture, sử dụng Vir-tual DOM
+ []
 
-[6]) (./components/Section-IV/main.tex
 
-[7]
+
+[6]
+
+[7]) (./components/Section-IV/main.tex
 
 [8]
 
 [9]
-Overfull \hbox (5.04057pt too wide) in paragraph at lines 96--97
-[]\TU/TimesNewRoman(0)/m/n/13 Com-pound in-dex trên \TU/lmtt/m/n/13 {userId: 1,
- createdAt: -1} \TU/TimesNewRoman(0)/m/n/13 cho API \TU/lmtt/m/n/13 GetFeedPosts
- 
- []
-
-
-Overfull \hbox (32.83168pt too wide) in paragraph at lines 110--111
-[]\TU/TimesNewRoman(0)/b/n/13 Built-in Mid-dle-ware\TU/TimesNewRoman(0)/m/n/13 
-: \TU/lmtt/m/n/13 express.json()\TU/TimesNewRoman(0)/m/n/13 , \TU/lmtt/m/n/13 ex
-press.static()\TU/TimesNewRoman(0)/m/n/13 , \TU/lmtt/m/n/13 express.urlencoded()
- 
- []
-
-
 
 [10]
+Overfull \hbox (0.34918pt too wide) in paragraph at lines 88--89
+[]\TU/Arial(0)/b/n/13 Schema linh hoạt\TU/Arial(0)/m/n/13 : Trường \TU/lmt
+t/m/n/13 postVector \TU/Arial(0)/m/n/13 trong schema \TU/lmtt/m/n/13 Post \TU/A
+rial(0)/m/n/13 lưu vec-tor nhúng
+ []
+
+
+Overfull \hbox (3.71259pt too wide) in paragraph at lines 89--90
+[]\TU/Arial(0)/b/n/13 Quan hệ dữ liệu\TU/Arial(0)/m/n/13 : Sử dụng Ob-
+jec-tId để liên kết giữa các col-lec-tions, \TU/lmtt/m/n/13 populate
+ []
+
+
+Overfull \hbox (18.8847pt too wide) in paragraph at lines 96--97
+[]\TU/Arial(0)/m/n/13 Com-pound in-dex trên \TU/lmtt/m/n/13 {userId: 1, created
+At: -1} \TU/Arial(0)/m/n/13 cho API \TU/lmtt/m/n/13 GetFeedPosts 
+ []
+
+
+Overfull \hbox (40.53833pt too wide) in paragraph at lines 110--111
+[]\TU/Arial(0)/b/n/13 Built-in Mid-dle-ware\TU/Arial(0)/m/n/13 : \TU/lmtt/m/n/1
+3 express.json()\TU/Arial(0)/m/n/13 , \TU/lmtt/m/n/13 express.static()\TU/Arial
+(0)/m/n/13 , \TU/lmtt/m/n/13 express.urlencoded() 
+ []
+
+
 
 [11]
-Overfull \hbox (6.22615pt too wide) in paragraph at lines 159--160
-[]\TU/TimesNewRoman(0)/b/n/13 State Man-age-ment\TU/TimesNewRoman(0)/m/n/13 : Co
-n-text API cho global state, lo-cal state cho component-specific
+Overfull \hbox (3.56993pt too wide) in paragraph at lines 124--125
+[]\TU/Arial(0)/b/n/13 HTTP Meth-ods\TU/Arial(0)/m/n/13 : GET (lấy dữ liệu)
+, POST (tạo mới), PUT (cập nhật), DELETE
  []
 
 
 
 [12]
+Overfull \hbox (5.7187pt too wide) in paragraph at lines 159--160
+[]\TU/Arial(0)/b/n/13 State Man-age-ment\TU/Arial(0)/m/n/13 : Con-text API cho 
+global state, lo-cal state cho component-
+ []
+
+
+Overfull \hbox (23.63992pt too wide) in paragraph at lines 173--175
+[]\TU/Arial(0)/b/n/13 Khái niệm và kiến trúc: \TU/Arial(0)/m/n/13 Node.js
+ là run-time en-vi-ron-ment cho phép chạy JavaScript
+ []
+
+
 
 [13]
 
 [14]
 
 [15]
+Overfull \hbox (1.30432pt too wide) in paragraph at lines 266--267
+[]\TU/Arial(0)/b/n/13 Trans-for-ma-tion\TU/Arial(0)/m/n/13 : Real-time re-size, crop, for-mat con-ver-sion, qual-ity op-ti-miza-
+ []
+
+
 
 [16]
+Overfull \hbox (3.59221pt too wide) in paragraph at lines 301--302
+[]\TU/Arial(0)/b/n/13 Dense Vec-tors\TU/Arial(0)/m/n/13 : High-dimensional rep-r
+e-sen-ta-tions từ ma-chine learn-ing mod-
+ []
 
-[17]) (./components/Section-V/main.tex
 
-[18]
-<image/MoHinh/1.png, id=504, 2223.30624pt x 2221.29875pt>
+Overfull \hbox (5.50163pt too wide) in paragraph at lines 316--318
+[]\TU/Arial(0)/b/n/13 Cache-Aside Pat-tern: \TU/Arial(0)/m/n/13 Ap-pli-ca-tion 
+quản lý cache man-u-ally, đọc từ cache trước,
+ []
+
+
+
+[17]
+
+[18]) (./components/Section-V/main.tex
+
+[19]
+
+[20]
+<image/MoHinh/1.png, id=508, 2223.30624pt x 2221.29875pt>
 File: image/MoHinh/1.png Graphic file (type png)
 <use image/MoHinh/1.png>
 Package luatex.def Info: image/MoHinh/1.png  used on input line 12.
@@ -1978,8 +2388,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--15
 
 
 
-[19<./image/MoHinh/1.png>]
-<image/MoHinh/2.png, id=510, 1394.20876pt x 731.1315pt>
+[21<./image/MoHinh/1.png>]
+<image/MoHinh/2.png, id=514, 1394.20876pt x 731.1315pt>
 File: image/MoHinh/2.png Graphic file (type png)
 <use image/MoHinh/2.png>
 Package luatex.def Info: image/MoHinh/2.png  used on input line 36.
@@ -1989,7 +2399,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--39
 
  []
 
-<image/MoHinh/3.png, id=511, 2220.295pt x 1146.2825pt>
+<image/MoHinh/3.png, id=515, 2220.295pt x 1146.2825pt>
 File: image/MoHinh/3.png Graphic file (type png)
 <use image/MoHinh/3.png>
 Package luatex.def Info: image/MoHinh/3.png  used on input line 45.
@@ -2001,10 +2411,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--48
 
 
 
-[20<./image/MoHinh/2.png>]
+[22<./image/MoHinh/2.png>]
 
-[21<./image/MoHinh/3.png>]
-<image/MoHinh/4.png, id=522, 1884.03876pt x 1116.17pt>
+[23<./image/MoHinh/3.png>]
+<image/MoHinh/4.png, id=526, 1884.03876pt x 1116.17pt>
 File: image/MoHinh/4.png Graphic file (type png)
 <use image/MoHinh/4.png>
 Package luatex.def Info: image/MoHinh/4.png  used on input line 55.
@@ -2016,8 +2426,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--58
 
 
 
-[22<./image/MoHinh/4.png>]
-<image/MoHinh/5.png, id=528, 1994.45125pt x 1126.2075pt>
+[24<./image/MoHinh/4.png>]
+<image/MoHinh/5.png, id=532, 1994.45125pt x 1126.2075pt>
 File: image/MoHinh/5.png Graphic file (type png)
 <use image/MoHinh/5.png>
 Package luatex.def Info: image/MoHinh/5.png  used on input line 65.
@@ -2027,7 +2437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--68
 
  []
 
-<image/MoHinh/6.png, id=529, 2055.68pt x 1015.795pt>
+<image/MoHinh/6.png, id=533, 2055.68pt x 1015.795pt>
 File: image/MoHinh/6.png Graphic file (type png)
 <use image/MoHinh/6.png>
 Package luatex.def Info: image/MoHinh/6.png  used on input line 74.
@@ -2039,8 +2449,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--77
 
 
 
-[23<./image/MoHinh/5.png><./image/MoHinh/6.png>]
-<image/MoHinh/7.png, id=536, 1909.1325pt x 930.47626pt>
+[25<./image/MoHinh/5.png>]
+<image/MoHinh/7.png, id=539, 1909.1325pt x 930.47626pt>
 File: image/MoHinh/7.png Graphic file (type png)
 <use image/MoHinh/7.png>
 Package luatex.def Info: image/MoHinh/7.png  used on input line 83.
@@ -2052,8 +2462,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--86
 
 
 
-[24<./image/MoHinh/7.png>]
-<image/MoHinh/8.png, id=542, 1924.18875pt x 1291.82625pt>
+[26<./image/MoHinh/6.png><./image/MoHinh/7.png>]
+<image/MoHinh/8.png, id=547, 1924.18875pt x 1291.82625pt>
 File: image/MoHinh/8.png Graphic file (type png)
 <use image/MoHinh/8.png>
 Package luatex.def Info: image/MoHinh/8.png  used on input line 93.
@@ -2063,7 +2473,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--96
 
  []
 
-<image/MoHinh/9.png, id=543, 1929.2075pt x 990.70125pt>
+<image/MoHinh/9.png, id=548, 1929.2075pt x 990.70125pt>
 File: image/MoHinh/9.png Graphic file (type png)
 <use image/MoHinh/9.png>
 Package luatex.def Info: image/MoHinh/9.png  used on input line 102.
@@ -2075,8 +2485,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
 
 
-[25<./image/MoHinh/8.png>]
-<image/MoHinh/10.png, id=549, 2079.77pt x 1040.88875pt>
+[27<./image/MoHinh/8.png>]
+<image/MoHinh/10.png, id=554, 2079.77pt x 1040.88875pt>
 File: image/MoHinh/10.png Graphic file (type png)
 <use image/MoHinh/10.png>
 Package luatex.def Info: image/MoHinh/10.png  used on input line 111.
@@ -2088,8 +2498,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--114
 
 
 
-[26<./image/MoHinh/9.png><./image/MoHinh/10.png>]
-<image/MoHinh/11.png, id=557, 1818.795pt x 1055.945pt>
+[28<./image/MoHinh/9.png><./image/MoHinh/10.png>]
+<image/MoHinh/11.png, id=561, 1818.795pt x 1055.945pt>
 File: image/MoHinh/11.png Graphic file (type png)
 <use image/MoHinh/11.png>
 Package luatex.def Info: image/MoHinh/11.png  used on input line 120.
@@ -2101,8 +2511,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--123
 
 
 
-[27<./image/MoHinh/11.png>]
-<image/MoHinh/12.png, id=563, 2022.55624pt x 1331.97626pt>
+[29<./image/MoHinh/11.png>]
+<image/MoHinh/12.png, id=567, 2022.55624pt x 1331.97626pt>
 File: image/MoHinh/12.png Graphic file (type png)
 <use image/MoHinh/12.png>
 Package luatex.def Info: image/MoHinh/12.png  used on input line 129.
@@ -2114,34 +2524,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--132
 
 
 
-[28<./image/MoHinh/12.png>]
+[30<./image/MoHinh/12.png>] [31] [32] [33] [34] [35]
 
-[29] [30] [31] [32] [33] [34]
+[36] [37]
 
-[35] [36]
+[38]
+Underfull \hbox (badness 2521) in paragraph at lines 446--447
+[]\TU/Arial(0)/m/n/13 Nếu chưa đăng nhập: Hệ thống chuyển
+ []
 
-[37] [38]
+[39]
 
-[39] [40] [41] [42]
-
-[43] [44]
-<image/sequence/chat-ai.png, id=700, 1152.7065pt x 1168.365pt>
+[40] [41] [42] [43] [44] [45] [46] [47]
+<image/sequence/chat-ai.png, id=709, 1152.7065pt x 1168.365pt>
 File: image/sequence/chat-ai.png Graphic file (type png)
 <use image/sequence/chat-ai.png>
 Package luatex.def Info: image/sequence/chat-ai.png  used on input line 673.
 (luatex.def)             Requested size: 455.24411pt x 461.4189pt.
 
 
-[45]
-<image/sequence/chat-ai2.png, id=709, 1152.7065pt x 1291.82625pt>
+[48]
+<image/sequence/chat-ai2.png, id=718, 1152.7065pt x 1291.82625pt>
 File: image/sequence/chat-ai2.png Graphic file (type png)
 <use image/sequence/chat-ai2.png>
 Package luatex.def Info: image/sequence/chat-ai2.png  used on input line 681.
 (luatex.def)             Requested size: 455.24411pt x 510.17708pt.
 
 
-[46<./image/sequence/chat-ai.png>]
-<image/sequence/dang-bai-viet.png, id=716, 2831.57875pt x 3906.595pt>
+[49<./image/sequence/chat-ai.png>]
+<image/sequence/dang-bai-viet.png, id=724, 2831.57875pt x 3906.595pt>
 File: image/sequence/dang-bai-viet.png Graphic file (type png)
 <use image/sequence/dang-bai-viet.png>
 Package luatex.def Info: image/sequence/dang-bai-viet.png  used on input line 6
@@ -2149,8 +2560,8 @@ Package luatex.def Info: image/sequence/dang-bai-viet.png  used on input line 6
 (luatex.def)             Requested size: 455.24411pt x 628.04848pt.
 
 
-[47<./image/sequence/chat-ai2.png>]
-<image/sequence/goi-y-bai-viet.png, id=722, 2044.63875pt x 2658.93375pt>
+[50<./image/sequence/chat-ai2.png>]
+<image/sequence/goi-y-bai-viet.png, id=730, 2044.63875pt x 2658.93375pt>
 File: image/sequence/goi-y-bai-viet.png Graphic file (type png)
 <use image/sequence/goi-y-bai-viet.png>
 Package luatex.def Info: image/sequence/goi-y-bai-viet.png  used on input line 
@@ -2158,8 +2569,8 @@ Package luatex.def Info: image/sequence/goi-y-bai-viet.png  used on input line
 (luatex.def)             Requested size: 455.24411pt x 591.9862pt.
 
 
-[48<./image/sequence/dang-bai-viet.png>]
-<image/sequence/goi-y-ban-be.png, id=727, 1564.84625pt x 1195.46625pt>
+[51<./image/sequence/dang-bai-viet.png>]
+<image/sequence/goi-y-ban-be.png, id=735, 1564.84625pt x 1195.46625pt>
 File: image/sequence/goi-y-ban-be.png Graphic file (type png)
 <use image/sequence/goi-y-ban-be.png>
 Package luatex.def Info: image/sequence/goi-y-ban-be.png  used on input line 70
@@ -2167,24 +2578,24 @@ Package luatex.def Info: image/sequence/goi-y-ban-be.png  used on input line 70
 (luatex.def)             Requested size: 455.24411pt x 347.78905pt.
 
 
-[49<./image/sequence/goi-y-bai-viet.png>]
-<image/sequence/message1.png, id=732, 780.516pt x 600.44325pt>
+[52<./image/sequence/goi-y-bai-viet.png>]
+<image/sequence/message1.png, id=740, 780.516pt x 600.44325pt>
 File: image/sequence/message1.png Graphic file (type png)
 <use image/sequence/message1.png>
 Package luatex.def Info: image/sequence/message1.png  used on input line 711.
 (luatex.def)             Requested size: 455.24411pt x 350.218pt.
 
 
-[50<./image/sequence/goi-y-ban-be.png>]
-<image/sequence/message2.png, id=737, 780.516pt x 870.25125pt>
+[53<./image/sequence/goi-y-ban-be.png>]
+<image/sequence/message2.png, id=745, 780.516pt x 870.25125pt>
 File: image/sequence/message2.png Graphic file (type png)
 <use image/sequence/message2.png>
 Package luatex.def Info: image/sequence/message2.png  used on input line 719.
 (luatex.def)             Requested size: 455.24411pt x 507.58778pt.
 
 
-[51<./image/sequence/message1.png>]
-<image/sequence/tim-kiem-nang-cao.png, id=743, 2297.58376pt x 2492.31125pt>
+[54<./image/sequence/message1.png>]
+<image/sequence/tim-kiem-nang-cao.png, id=751, 2297.58376pt x 2492.31125pt>
 File: image/sequence/tim-kiem-nang-cao.png Graphic file (type png)
 <use image/sequence/tim-kiem-nang-cao.png>
 Package luatex.def Info: image/sequence/tim-kiem-nang-cao.png  used on input li
@@ -2192,9 +2603,9 @@ ne 729.
 (luatex.def)             Requested size: 455.24411pt x 493.81381pt.
 ) (./components/Section-VI/main.tex
 
-[52<./image/sequence/message2.png>]
+[55<./image/sequence/message2.png>]
 
-[53<./image/sequence/tim-kiem-nang-cao.png>]
+[56<./image/sequence/tim-kiem-nang-cao.png>]
 Overfull \hbox (5.4944pt too wide) in paragraph at lines 9--25
  [][] 
  []
@@ -2206,87 +2617,92 @@ Overfull \hbox (5.4944pt too wide) in paragraph at lines 34--46
 
 
 
-[54]
+[57]
 Overfull \hbox (5.4944pt too wide) in paragraph at lines 56--67
  [][] 
  []
 
 
 
-[55]
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\TU/Arial(0)/m/n/13 re-port-ed-ByUser-
+ []
+
+
 Overfull \hbox (5.4944pt too wide) in paragraph at lines 76--99
  [][] 
  []
 
 
 
-[56]
+[59]
 Overfull \hbox (5.4944pt too wide) in paragraph at lines 109--120
  [][] 
  []
 
 
 
-[57]
+[60]
 Overfull \hbox (5.4944pt too wide) in paragraph at lines 129--156
  [][] 
  []
 
 
 
-[58]
+[61]
 Overfull \hbox (5.4944pt too wide) in paragraph at lines 164--188
  [][] 
  []
 
 
 
-[59]
+[62]
 Overfull \hbox (5.4944pt too wide) in paragraph at lines 196--210
  [][] 
  []
 
 
 
-[60]
-<image/MoHinh/13.png, id=782, 392.667pt x 513.117pt>
+[63]
+<image/MoHinh/13.png, id=790, 392.667pt x 513.117pt>
 File: image/MoHinh/13.png Graphic file (type png)
 <use image/MoHinh/13.png>
 Package luatex.def Info: image/MoHinh/13.png  used on input line 238.
 (luatex.def)             Requested size: 455.24411pt x 594.90297pt.
 ) (./components/Section-VII/main.tex
 
-[61]
+[64]
 
-[62<./image/MoHinh/13.png>]
-<image/thucnghiem/report.png, id=792, 1155.71774pt x 529.37775pt>
+[65<./image/MoHinh/13.png>]
+<image/thucnghiem/report.png, id=800, 1155.71774pt x 529.37775pt>
 File: image/thucnghiem/report.png Graphic file (type png)
 <use image/thucnghiem/report.png>
 Package luatex.def Info: image/thucnghiem/report.png  used on input line 10.
 (luatex.def)             Requested size: 455.24411pt x 208.52437pt.
 
 
-[63<./image/thucnghiem/report.png>]
-<image/thucnghiem/ngunghia.png, id=798, 1136.44576pt x 528.17325pt>
+[66<./image/thucnghiem/report.png>]
+<image/thucnghiem/ngunghia.png, id=807, 1136.44576pt x 528.17325pt>
 File: image/thucnghiem/ngunghia.png Graphic file (type png)
 <use image/thucnghiem/ngunghia.png>
 Package luatex.def Info: image/thucnghiem/ngunghia.png  used on input line 37.
 (luatex.def)             Requested size: 455.24411pt x 211.57181pt.
 
-Overfull \hbox (2.34029pt too wide) in paragraph at lines 43--44
-[]\TU/TimesNewRoman(0)/b/n/13 Vec-tor em-bed-dings\TU/TimesNewRoman(0)/m/n/13 : S
-ử dụng Ope-nAI text-embedding-3-large trong em-bed-dingSer-
+Overfull \hbox (0.92831pt too wide) in paragraph at lines 51--52
+[]\TU/Arial(0)/b/n/13 Batch pro-cess-ing\TU/Arial(0)/m/n/13 : Script đánh in-d
+ex hàng loạt trong in-dex-Ad-vanced-Data.ts 
  []
 
 
 
-[64<./image/thucnghiem/ngunghia.png>]
-<image/thucnghiem/hinhve.png, id=804, 976.24725pt x 875.06924pt>
+[67<./image/thucnghiem/ngunghia.png>]
+<image/thucnghiem/hinhve.png, id=813, 976.24725pt x 875.06924pt>
 File: image/thucnghiem/hinhve.png Graphic file (type png)
 <use image/thucnghiem/hinhve.png>
 Package luatex.def Info: image/thucnghiem/hinhve.png  used on input line 57.
 (luatex.def)             Requested size: 455.24411pt x 408.06467pt.
-<image/thucnghiem/recommend.png, id=805, 560.69475pt x 562.5015pt>
+<image/thucnghiem/recommend.png, id=814, 560.69475pt x 562.5015pt>
 File: image/thucnghiem/recommend.png Graphic file (type png)
 <use image/thucnghiem/recommend.png>
 Package luatex.def Info: image/thucnghiem/recommend.png  used on input line 78.
@@ -2294,34 +2710,34 @@ Package luatex.def Info: image/thucnghiem/recommend.png  used on input line 78.
 (luatex.def)             Requested size: 455.24411pt x 456.71376pt.
 
 
-[65<./image/thucnghiem/hinhve.png>]
+[68<./image/thucnghiem/hinhve.png>]
 
-[66<./image/thucnghiem/recommend.png>]
-<image/thucnghiem/ai.png, id=817, 522.15076pt x 504.08325pt>
+[69<./image/thucnghiem/recommend.png>]
+<image/thucnghiem/ai.png, id=825, 522.15076pt x 504.08325pt>
 File: image/thucnghiem/ai.png Graphic file (type png)
 <use image/thucnghiem/ai.png>
 Package luatex.def Info: image/thucnghiem/ai.png  used on input line 99.
 (luatex.def)             Requested size: 455.24411pt x 439.51035pt.
 
 
-[67<./image/thucnghiem/ai.png>]
-<image/thucnghiem/mail.png, id=823, 476.982pt x 518.53725pt>
+[70<./image/thucnghiem/ai.png>]
+<image/thucnghiem/mail.png, id=831, 476.982pt x 518.53725pt>
 File: image/thucnghiem/mail.png Graphic file (type png)
 <use image/thucnghiem/mail.png>
 Package luatex.def Info: image/thucnghiem/mail.png  used on input line 120.
 (luatex.def)             Requested size: 455.24411pt x 494.91797pt.
 
-Overfull \hbox (12.96736pt too wide) in paragraph at lines 128--129
-[]\TU/TimesNewRoman(0)/b/n/13 Pro-tected routes\TU/TimesNewRoman(0)/m/n/13 : Com
--po-nent bảo vệ yêu cầu xác minh trong Email-Pro-tect-e-dRoute.tsx 
+
+[71<./image/thucnghiem/mail.png>]
+Overfull \hbox (28.61469pt too wide) in paragraph at lines 140--141
+[]\TU/Arial(0)/b/n/13 So-cial ac-tions worker\TU/Arial(0)/m/n/13 : Xử lý like
+/-fol-low bất đồng bộ trong so-cialAc-tionsWorker.ts 
  []
 
 
 
-[68<./image/thucnghiem/mail.png>]
-
-[69]
-<image/thucnghiem/Deployment.png, id=833, 1443.14156pt x 1477.01813pt>
+[72]
+<image/thucnghiem/Deployment.png, id=841, 1443.14156pt x 1477.01813pt>
 File: image/thucnghiem/Deployment.png Graphic file (type png)
 <use image/thucnghiem/Deployment.png>
 Package luatex.def Info: image/thucnghiem/Deployment.png  used on input line 14
@@ -2329,21 +2745,21 @@ Package luatex.def Info: image/thucnghiem/Deployment.png  used on input line 14
 (luatex.def)             Requested size: 455.24411pt x 465.91676pt.
 
 
-[70<./image/thucnghiem/Deployment.png>]) (./components/Section-VIII/main.tex
+[73<./image/thucnghiem/Deployment.png>]) (./components/Section-VIII/main.tex
 
-[71]
+[74]
 
-[72]
+[75]
 
-[73]) (./components/reference.tex
+[76]) (./components/reference.tex
 
-[74])
+[77])
 \tf@thm=\write9
 
 \openout9 = main.thm
 
 
-[75
+[78
 
 ] (./main.aux)
  ***********
@@ -2355,19 +2771,19 @@ L3 programming layer <2025-09-02>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5753BE0CD0CC9636E8A1F18E1252A924;11439.
+(rerunfilecheck)             Checksum: A37FF063A3AE7365D7FE83248CDFE376;11053.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48142 strings out of 476291
+ 52150 strings out of 476291
  125146,1977958 words of node,token memory allocated
- 1014 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 155 glue_spe
+ 1029 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 158 glue_spe
 c, 7 attribute_list, 2 write nodes
-   avail lists: 1:1,2:1678,3:378,4:166,5:341,6:228,7:5880,8:52,9:1826,10:14,11:3
-05
- 68735 multiletter control sequences out of 65536+600000
- 58 fonts using 17834391 bytes
+   avail lists: 1:1,2:1787,3:395,4:166,5:331,6:228,7:5685,8:52,9:1826,10:14,11:3
+27
+ 72708 multiletter control sequences out of 65536+600000
+ 77 fonts using 28238451 bytes
  108i,11n,101p,910b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'table.11'
@@ -2391,14 +2807,13 @@ warning  (pdf backend): unreferenced destination with name 'table.3'
 warning  (pdf backend): unreferenced destination with name 'table.2'
 
 warning  (pdf backend): unreferenced destination with name 'table.1'
-<c:/users/thanh/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmono12-
-regular.otf><C:/WINDOWS/Fonts/timesbd.ttf><C:/WINDOWS/Fonts/times.ttf><C:/Users/
-thanh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Users/thanh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb>
-Output written on main.pdf (80 pages, 5766208 bytes).
+<C:/Users/thanh/AppData/Local/Programs/MiKTeX/fonts/opentype/public/tex-gyre-mat
+h/texgyretermes-math.otf><c:/users/thanh/appdata/local/programs/miktex/fonts/ope
+ntype/public/lm/lmmono12-regular.otf><C:/WINDOWS/Fonts/arialbd.ttf><C:/WINDOWS/F
+onts/arial.ttf>
+Output written on main.pdf (83 pages, 5741831 bytes).
 
-PDF statistics: 916 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 925 PDF objects out of 1000 (max. 8388607)
  272 named destinations out of 1000 (max. 131072)
  488 words of extra memory for PDF output out of 10000 (max. 100000000)
 
