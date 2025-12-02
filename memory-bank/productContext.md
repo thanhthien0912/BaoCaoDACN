@@ -124,5 +124,11 @@ Xây dựng hệ thống ví điện tử tích hợp công nghệ NFC, cho phé
 - Dio HTTP client
 - flutter_nfc_kit
 
+### Infrastructure & Deployment
+- **Backend**: Railway Cloud Hosting
+- **Frontend**: Vercel Platform
+- **Database**: MongoDB Atlas Cloud
+- **CI/CD**: Automated Deployment Pipelines
+
 ---
-*Cập nhật lần cuối: 24/11/2025*
+*Cập nhật lần cuối: 02/12/2025*

@@ -105,6 +105,51 @@ Frontend/
 └── Assets/             # Static files
 ```
 
+## Deployment Architecture Patterns (New)
+
+### Cloud Infrastructure
+```
+User Devices                    Cloud Services
+┌─────────────┐              ┌──────────────────┐
+│ Web Browser │ ───────────► │ Vercel (Frontend)│
+└─────────────┘    HTTPS     │ • React SPA      │
+                             │ • Static Assets  │
+┌─────────────┐              └─────────┬────────┘
+│ Mobile App  │                        │ API Calls
+│ (Android)   │ ───────────┐           │ (HTTPS)
+└─────────────┘            │           ▼
+                           │ ┌──────────────────┐
+                           └►│ Railway (Backend)│
+                             │ • Node.js API    │
+                             │ • Background Jobs│
+                             │ • Environment Var│
+                             └─────────┬────────┘
+                                       │ DB Connection
+                                       │ (Secure)
+                                       ▼
+                             ┌──────────────────┐
+                             │ MongoDB Atlas    │
+                             │ • Database       │
+                             │ • Vector Search  │
+                             │ • Backups        │
+                             └──────────────────┘
+```
+
+### Deployment Automation Patterns
+- **Secrets Management**: Sử dụng script `generate-secrets.js` để tạo cryptographically strong keys cho JWT và NFC security.
+- **Environment Validation**: Script `check-env.js` tự động kiểm tra sự tồn tại của các biến môi trường bắt buộc trước khi start server.
+- **Setup Automation**: `setup-railway.ps1` cung cấp menu interactive để hỗ trợ developers setup môi trường deployment nhanh chóng trên Windows.
+- **Git Integration**:
+  - Push to `main` triggers Railway deployment (Backend).
+  - Push to `main` triggers Vercel deployment (Frontend).
+
+### Production Configuration Patterns
+- **CORS Handling**: Strict whitelist cho domain Vercel (`CORS_ORIGIN` env var).
+- **HTTPS Enforcement**: Bắt buộc HTTPS cho mọi kết nối API.
+- **Secure Cookies**: HttpOnly, Secure flags cho cookies trên production.
+- **Error Exposure**: Ẩn stack traces trên production (`NODE_ENV=production`).
+- **Health Checks**: `/api/health` endpoint cho monitoring service status.
+
 ## Data Flow Patterns
 
 ### Authentication Flow
@@ -349,4 +394,4 @@ Card System/
 **Security**: HMAC-SHA256 signature với server secret để prevent card forgery
 
 ---
-*Cập nhật lần cuối: 26/11/2025*
+*Cập nhật lần cuối: 02/12/2025*

@@ -46,6 +46,14 @@
 - **Caching**: Redis (cho sessions và frequent data)
 - **File Storage**: AWS S3 / Local storage
 
+### Deployment & DevOps
+- **Backend Hosting**: Railway (Start Plan)
+- **Frontend Hosting**: Vercel (Hobby Plan)
+- **Database**: MongoDB Atlas (M0 Sandbox)
+- **CI/CD**: Automatic deployments via Git integration (Railway/Vercel)
+- **Automation Scripts**: PowerShell (`.ps1`) và Node.js scripts
+- **Environment Management**: `.env` files và Railway/Vercel dashboard variables
+
 ### Development Tools
 - **Version Control**: Git
 - **Code Editor**: Visual Studio Code / Android Studio
@@ -318,4 +326,4 @@ dev_dependencies:
 - **Centralized Logging**: ELK stack (Elasticsearch, Logstash, Kibana)
 
 ---
-*Cập nhật lần cuối: 24/11/2025*
+*Cập nhật lần cuối: 02/12/2025*
