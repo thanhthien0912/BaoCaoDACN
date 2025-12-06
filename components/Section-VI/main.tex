@@ -1,7 +1,7 @@
 \newpage
 \section{\textbf{THIẾT KẾ CƠ SỞ DỮ LIỆU}}
 
-\subsection{Thiết kế sơ đồ E-R}
+\subsection{Thiết kế sơ đồ}
 Dựa trên các yêu cầu phân tích, hệ thống bao gồm các thực thể chính: Người dùng (Users), Ví (Wallets), Giao dịch (Transactions) và Phiên chat (ChatSessions). Mối quan hệ giữa chúng được mô tả như sau:
 \begin{itemize}
     \item Một \textbf{User} có duy nhất một \textbf{Wallet}.
@@ -15,6 +15,7 @@ Dựa trên các yêu cầu phân tích, hệ thống bao gồm các thực th�
 Lưu trữ thông tin cá nhân và tài khoản của sinh viên và quản trị viên.
 
 \begin{table}[H]
+\caption{Cấu trúc Collection Users}
 \centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{|p{3cm}|p{3cm}|p{2cm}|p{6cm}|}
@@ -40,13 +41,13 @@ isActive & Boolean & Có & Trạng thái kích hoạt tài khoản \\
 createdAt & Date & Có & Thời gian tạo \\
 \hline
 \end{tabular}
-\caption{Cấu trúc Collection Users}
 \end{table}
 
 \textbf{2. Wallets (Ví điện tử)}
 Lưu trữ thông tin số dư và trạng thái ví của sinh viên.
 
 \begin{table}[H]
+\caption{Cấu trúc Collection Wallets}
 \centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{|p{3cm}|p{3cm}|p{2cm}|p{6cm}|}
@@ -68,13 +69,13 @@ lastTransaction & Date & Không & Thời gian giao dịch gần nhất \\
 updatedAt & Date & Có & Thời gian cập nhật số dư cuối cùng \\
 \hline
 \end{tabular}
-\caption{Cấu trúc Collection Wallets}
 \end{table}
 
 \textbf{3. Transactions (Giao dịch)}
 Lưu trữ lịch sử nạp tiền và thanh toán.
 
 \begin{table}[H]
+\caption{Cấu trúc Collection Transactions}
 \centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{|p{3cm}|p{3cm}|p{2cm}|p{6cm}|}
@@ -98,13 +99,13 @@ metadata & Object & Không & Dữ liệu chi tiết (Mã GD MoMo, ID thiết b�
 createdAt & Date & Có & Thời gian thực hiện \\
 \hline
 \end{tabular}
-\caption{Cấu trúc Collection Transactions}
 \end{table}
 
 \textbf{4. ChatSessions (Hội thoại AI)}
 Lưu trữ lịch sử trò chuyện giữa sinh viên và trợ lý ảo Gemini để duy trì ngữ cảnh.
 
 \begin{table}[H]
+\caption{Cấu trúc Collection ChatSessions}
 \centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{|p{3cm}|p{3cm}|p{2cm}|p{6cm}|}
@@ -124,7 +125,6 @@ createdAt & Date & Có & Thời gian bắt đầu \\
 updatedAt & Date & Có & Thời gian tin nhắn cuối cùng \\
 \hline
 \end{tabular}
-\caption{Cấu trúc Collection ChatSessions}
 \end{table}
 
 \newpage
@@ -133,16 +133,7 @@ Hình dưới đây mô tả mối quan hệ tham chiếu giữa các collection
 
 \begin{figure}[H]
     \centering
-    % Placeholder cho sơ đồ ER/Schema
-    \fbox{\begin{minipage}{0.9\textwidth}
-        \centering
-        \vspace{2cm}
-        \textbf{[SƠ ĐỒ QUAN HỆ CƠ SỞ DỮ LIỆU - MONGODB SCHEMA]} \\
-        User (1) --- (1) Wallet \\
-        Wallet (1) --- (n) Transactions \\
-        User (1) --- (n) ChatSessions
-        \vspace{2cm}
-    \end{minipage}}
+    \includegraphics[width=1.0\textwidth]{image/sequence/6.png}
     \caption{Sơ đồ quan hệ cơ sở dữ liệu}
     \label{fig:db_schema}
 \end{figure}

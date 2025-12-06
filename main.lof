@@ -1,11 +1,12 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Sơ đồ Use Case Tổng quát}}{12}{figure.caption.3}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Sơ đồ hoạt động chức năng Thanh toán NFC}}{15}{figure.caption.4}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Sơ đồ hoạt động chức năng Nạp tiền MoMo}}{16}{figure.caption.5}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Sơ đồ tuần tự chức năng Chat AI}}{16}{figure.caption.6}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Sơ đồ quan hệ cơ sở dữ liệu}}{20}{figure.caption.11}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Giao diện người dùng cơ bản}}{21}{figure.caption.12}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Quy trình nạp tiền qua ví MoMo}}{22}{figure.caption.13}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Mô phỏng thanh toán một chạm NFC}}{22}{figure.caption.14}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Tương tác với trợ lý ảo AI}}{23}{figure.caption.15}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Dashboard quản trị viên}}{23}{figure.caption.16}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Sơ đồ Kiến trúc Hệ thống}}{6}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Sơ đồ Use Case Tổng quát}}{13}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Sơ đồ hoạt động chức năng Thanh toán NFC}}{16}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Sơ đồ hoạt động chức năng Nạp tiền MoMo}}{17}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Sơ đồ tuần tự chức năng Chat AI}}{18}{figure.caption.7}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Sơ đồ quan hệ cơ sở dữ liệu}}{22}{figure.caption.12}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Giao diện người dùng cơ bản}}{23}{figure.caption.13}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Quy trình nạp tiền qua ví MoMo}}{24}{figure.caption.14}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Mô phỏng thanh toán một chạm NFC}}{25}{figure.caption.15}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Tương tác với trợ lý ảo AI}}{26}{figure.caption.16}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Dashboard quản trị viên}}{27}{figure.caption.17}%

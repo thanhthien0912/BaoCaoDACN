@@ -19,15 +19,13 @@ Giao diện đăng nhập cho phép sinh viên truy cập bằng Mã số sinh v
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        % \includegraphics[width=0.8\textwidth]{image/ketqua/login_screen.png}
-        \fbox{\begin{minipage}{0.8\textwidth}\centering\vspace{4cm}Login Screen\vspace{4cm}\end{minipage}}
+        \includegraphics[width=0.8\textwidth]{image/app/1.jpg}
         \caption{Màn hình Đăng nhập}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
-        % \includegraphics[width=0.8\textwidth]{image/ketqua/home_screen.png}
-        \fbox{\begin{minipage}{0.8\textwidth}\centering\vspace{4cm}Home Screen\vspace{4cm}\end{minipage}}
+        \includegraphics[width=0.8\textwidth]{image/app/2.jpg}
         \caption{Màn hình Chính (Dashboard)}
     \end{subfigure}
     \caption{Giao diện người dùng cơ bản}
@@ -36,59 +34,30 @@ Giao diện đăng nhập cho phép sinh viên truy cập bằng Mã số sinh v
 \subsubsection{2. Chức năng Nạp tiền qua MoMo}
 Sinh viên nhập số tiền cần nạp, ứng dụng sẽ tự động chuyển hướng sang App MoMo để xác nhận thanh toán. Sau khi thành công, số dư được cập nhật tức thì nhờ cơ chế IPN.
 
+
 \begin{figure}[H]
     \centering
-    \begin{subfigure}[b]{0.3\textwidth}
-        \centering
-        \fbox{\begin{minipage}{0.9\textwidth}\centering\vspace{3.5cm}Nhập số tiền\vspace{3.5cm}\end{minipage}}
-        \caption{Nhập số tiền}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.3\textwidth}
-        \centering
-        \fbox{\begin{minipage}{0.9\textwidth}\centering\vspace{3.5cm}Màn hình MoMo\vspace{3.5cm}\end{minipage}}
-        \caption{Xác nhận trên MoMo}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.3\textwidth}
-        \centering
-        \fbox{\begin{minipage}{0.9\textwidth}\centering\vspace{3.5cm}Nạp thành công\vspace{3.5cm}\end{minipage}}
-        \caption{Kết quả thành công}
-    \end{subfigure}
+    \includegraphics[width=1.0\textwidth]{image/app/momo.png}
     \caption{Quy trình nạp tiền qua ví MoMo}
 \end{figure}
+
 
 \subsubsection{3. Chức năng Thanh toán NFC}
 Sinh viên đưa điện thoại lại gần thiết bị thanh toán (POS giả lập hoặc điện thoại khác đóng vai trò máy POS). Giao dịch được xử lý trong vòng 1-2 giây.
 
 \begin{figure}[H]
     \centering
-    % \includegraphics[width=0.6\textwidth]{image/ketqua/nfc_payment.png}
-    \fbox{\begin{minipage}{0.6\textwidth}
-        \centering
-        \vspace{3cm}
-        [HÌNH ẢNH MINH HỌA THANH TOÁN NFC] \\
-        (Điện thoại chạm vào đầu đọc thẻ)
-        \vspace{3cm}
-    \end{minipage}}
+    \includegraphics[width=0.6\textwidth]{image/app/3.jpg}
     \caption{Mô phỏng thanh toán một chạm NFC}
     \label{fig:nfc_result}
 \end{figure}
-
+\newpage
 \subsubsection{4. Chatbot AI Tư vấn tài chính}
 Giao diện chat tích hợp Google Gemini. AI có thể trả lời các câu hỏi như "Số dư của tôi còn bao nhiêu?", "Tháng này tôi đã nạp bao nhiêu tiền?" dựa trên dữ liệu giao dịch thực tế.
 
 \begin{figure}[H]
     \centering
-    % \includegraphics[width=0.5\textwidth]{image/ketqua/chatbot_screen.png}
-    \fbox{\begin{minipage}{0.5\textwidth}
-        \centering
-        \vspace{4cm}
-        [GIAO DIỆN CHATBOT] \\
-        User: Tháng này tiêu gì? \\
-        AI: Bạn đã tiêu 500k...
-        \vspace{4cm}
-    \end{minipage}}
+    \includegraphics[width=0.5\textwidth]{image/app/4.jpg}
     \caption{Tương tác với trợ lý ảo AI}
 \end{figure}
 
@@ -99,35 +68,10 @@ Trang tổng quan dành cho nhà trường hiển thị biểu đồ dòng tiề
 
 \begin{figure}[H]
     \centering
-    % \includegraphics[width=0.9\textwidth]{image/ketqua/admin_dashboard.png}
-    \fbox{\begin{minipage}{0.9\textwidth}
-        \centering
-        \vspace{3cm}
-        [GIAO DIỆN WEB DASHBOARD] \\
-        Biểu đồ doanh thu - Thống kê User
-        \vspace{3cm}
-    \end{minipage}}
+    \includegraphics[width=0.9\textwidth]{image/app/dashboard.png}
     \caption{Dashboard quản trị viên}
 \end{figure}
 
 \subsubsection{2. Quản lý Giao dịch và Sinh viên}
 Quản trị viên có thể xem danh sách toàn bộ sinh viên, tìm kiếm theo mã số, xem lịch sử giao dịch chi tiết để hỗ trợ giải quyết khiếu nại.
 
-\subsection{Đánh giá hiệu năng}
-\begin{table}[H]
-\centering
-\begin{tabularx}{\textwidth}{|l|l|X|}
-\hline
-\textbf{Chức năng} & \textbf{Thời gian đáp ứng TB} & \textbf{Kết quả} \\
-\hline
-Đăng nhập & 200ms & Đạt \\
-\hline
-Nạp tiền MoMo (IPN) & 1.5s - 3s & Đạt (Phụ thuộc mạng MoMo) \\
-\hline
-Thanh toán NFC & < 1s & Xuất sắc \\
-\hline
-Phản hồi AI Chatbot & 2s - 4s & Chấp nhận được (Phụ thuộc Gemini API) \\
-\hline
-\end{tabularx}
-\caption{Bảng đánh giá hiệu năng hệ thống}
-\end{table}

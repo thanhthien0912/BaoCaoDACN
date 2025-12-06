@@ -82,5 +82,16 @@ Dự án sử dụng bộ công nghệ (Tech Stack) hiện đại và phổ bi�
             \item \textbf{MoMo API}: Cổng thanh toán để nạp tiền vào ví.
             \item \textbf{Google Gemini API}: Cung cấp trí tuệ nhân tạo cho tính năng Chatbot.
         \end{itemize}
-    \item \textbf{Hạ tầng (DevOps)}: Backend được triển khai trên Railway, Frontend trên Vercel, đảm bảo tính sẵn sàng cao (High Availability).
+    \item \textbf{Hạ tầng và Triển khai (DevOps)}: Quy trình triển khai được tự động hóa (CI/CD) thông qua GitHub.
+        \begin{itemize}
+            \item \textbf{Backend (Railway)}: Tự động build và deploy container mỗi khi có cập nhật mã nguồn, cung cấp môi trường serverless linh hoạt và HTTPS mặc định.
+            \item \textbf{Frontend (Vercel)}: Tối ưu hóa việc phân phối nội dung tĩnh qua mạng lưới Edge Network toàn cầu, giúp giảm độ trễ truy cập cho người dùng.
+        \end{itemize}
 \end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{image/sequence/1.png}
+    \caption{Sơ đồ Kiến trúc Hệ thống}
+    \label{fig:sys_arch}
+\end{figure}

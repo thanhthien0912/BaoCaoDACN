@@ -18,16 +18,7 @@ Hệ thống "Nền tảng Ví điện tử Sinh viên" bao gồm các tác nhâ
 % Placeholder cho hình Use Case Tổng quát
 \begin{figure}[H]
     \centering
-    % \includegraphics[width=1\textwidth]{image/diagrams/usecase_tongquat.png}
-    \fbox{\begin{minipage}{0.8\textwidth}
-        \centering
-        \vspace{2cm}
-        \textbf{[SƠ ĐỒ USE CASE TỔNG QUÁT - MERMAID]} \\
-        Sinh viên --> (Thanh toán NFC) \\
-        Sinh viên --> (Nạp tiền MoMo) \\
-        Quản trị viên --> (Quản lý Dashboard)
-        \vspace{2cm}
-    \end{minipage}}
+    \includegraphics[width=1.0\textwidth]{image/sequence/2.png}
     \caption{Sơ đồ Use Case Tổng quát}
     \label{fig:usecase_tongquat}
 \end{figure}
@@ -148,36 +139,42 @@ Luồng sự kiện chính &
 
 \textbf{Quy trình Thanh toán NFC}
 
-% Placeholder cho hình Activity Diagram NFC
 \begin{figure}[H]
     \centering
-    \fbox{\begin{minipage}{0.8\textwidth}
+    \begin{subfigure}[b]{0.48\textwidth}
         \centering
-        \vspace{2cm}
-        \textbf{[SƠ ĐỒ ACTIVITY: THANH TOÁN NFC - MERMAID]} \\
-        Start --> Detect NFC --> Confirm --> Process --> End
-        \vspace{2cm}
-    \end{minipage}}
+        \includegraphics[width=0.7\textwidth]{image/sequence/3a.png}
+        \caption{Giai đoạn xác thực thẻ}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.7\textwidth]{image/sequence/3b.png}
+        \caption{Giai đoạn xử lý thanh toán}
+    \end{subfigure}
     \caption{Sơ đồ hoạt động chức năng Thanh toán NFC}
     \label{fig:activity_nfc}
 \end{figure}
-
+\newpage
 \textbf{Quy trình Nạp tiền MoMo}
 
-% Placeholder cho hình Activity Diagram MoMo
 \begin{figure}[H]
     \centering
-    \fbox{\begin{minipage}{0.8\textwidth}
+    \begin{subfigure}[b]{0.48\textwidth}
         \centering
-        \vspace{2cm}
-        \textbf{[SƠ ĐỒ ACTIVITY: NẠP TIỀN MOMO - MERMAID]} \\
-        Start --> Request Payment --> Open MoMo --> Confirm --> IPN Callback --> End
-        \vspace{2cm}
-    \end{minipage}}
+        \includegraphics[width=0.7\textwidth]{image/sequence/4a.png}
+        \caption{Giai đoạn khởi tạo giao dịch}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.7\textwidth]{image/sequence/4b.png}
+        \caption{Giai đoạn xử lý kết quả (IPN)}
+    \end{subfigure}
     \caption{Sơ đồ hoạt động chức năng Nạp tiền MoMo}
     \label{fig:activity_momo}
 \end{figure}
-
+\newpage
 \subsubsection{Biểu đồ Sequence (Tuần tự)}
 
 \textbf{Luồng tương tác Chatbot AI}
@@ -185,13 +182,7 @@ Luồng sự kiện chính &
 % Placeholder cho hình Sequence Diagram AI
 \begin{figure}[H]
     \centering
-    \fbox{\begin{minipage}{0.8\textwidth}
-        \centering
-        \vspace{2cm}
-        \textbf{[SƠ ĐỒ SEQUENCE: CHATBOT AI - MERMAID]} \\
-        Student -> App -> Server -> Gemini API
-        \vspace{2cm}
-    \end{minipage}}
+    \includegraphics[width=1.0\textwidth]{image/sequence/5.png}
     \caption{Sơ đồ tuần tự chức năng Chat AI}
     \label{fig:sequence_ai}
 \end{figure}
