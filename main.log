@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.26)  3 DEC 2025 01:59
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.26)  7 DEC 2025 00:20
  restricted system commands enabled.
  file:line:error style messages enabled.
 **d:/HUTECH/HK11/BaoCaoDACN/main.tex
@@ -2182,7 +2182,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \c@lstlisting=\count444
 (./components/title.tex
-<image/logoHutech1.png, id=216, 845.0772pt x 271.0125pt>
+<image/logoHutech1.png, id=245, 845.0772pt x 271.0125pt>
 File: image/logoHutech1.png Graphic file (type png)
 <use image/logoHutech1.png>
 Package luatex.def Info: image/logoHutech1.png  used on input line 15.
@@ -2278,160 +2278,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--134
 [15]) (./components/Section-VI/main.tex
 
 [16]
-Overfull \hbox (5.4944pt too wide) in paragraph at lines 9--25
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[]|\TU/Arial(0)/m/n/13 Trạng thái: ”AC-TIVE”,
  []
 
 
-Overfull \hbox (5.4944pt too wide) in paragraph at lines 34--46
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\TU/Arial(0)/m/n/13 last-Trans-ac-
  []
 
 
 
 [17]
-Overfull \hbox (5.4944pt too wide) in paragraph at lines 56--67
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+[]|\TU/Arial(0)/m/n/13 Loại GD: ”DE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+\TU/Arial(0)/m/n/13 POSIT_MOMO”, ”PAY-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]|\TU/Arial(0)/m/n/13 Trạng thái: ”PEND-ING”,
  []
 
 
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-[]|\TU/Arial(0)/m/n/13 re-port-ed-ByUser-
- []
 
-
-Overfull \hbox (5.4944pt too wide) in paragraph at lines 76--99
- [][] 
- []
-
-
-
-[19]
-Overfull \hbox (5.4944pt too wide) in paragraph at lines 109--120
- [][] 
- []
-
-
+[19]) (./components/Section-VII/main.tex
 
 [20]
-Overfull \hbox (5.4944pt too wide) in paragraph at lines 129--156
- [][] 
- []
-
-
 
 [21]
-Overfull \hbox (5.4944pt too wide) in paragraph at lines 164--188
- [][] 
- []
-
-
 
 [22]
-Overfull \hbox (5.4944pt too wide) in paragraph at lines 196--210
- [][] 
- []
-
-
 
 [23]
-<image/MoHinh/13.png, id=463, 392.667pt x 513.117pt>
-File: image/MoHinh/13.png Graphic file (type png)
-<use image/MoHinh/13.png>
-Package luatex.def Info: image/MoHinh/13.png  used on input line 238.
-(luatex.def)             Requested size: 455.24411pt x 594.90297pt.
-) (./components/Section-VII/main.tex
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\TU/Arial(0)/m/n/13 Đạt (Phụ thuộc mạng
+ []
+
+) (./components/Section-VIII/main.tex
 
 [24]
 
-[25<./image/MoHinh/13.png>]
-<image/thucnghiem/report.png, id=473, 1155.71774pt x 529.37775pt>
-File: image/thucnghiem/report.png Graphic file (type png)
-<use image/thucnghiem/report.png>
-Package luatex.def Info: image/thucnghiem/report.png  used on input line 10.
-(luatex.def)             Requested size: 455.24411pt x 208.52437pt.
+[25]) (./components/reference.tex
 
-
-[26<./image/thucnghiem/report.png>]
-<image/thucnghiem/ngunghia.png, id=480, 1136.44576pt x 528.17325pt>
-File: image/thucnghiem/ngunghia.png Graphic file (type png)
-<use image/thucnghiem/ngunghia.png>
-Package luatex.def Info: image/thucnghiem/ngunghia.png  used on input line 37.
-(luatex.def)             Requested size: 455.24411pt x 211.57181pt.
-
-Overfull \hbox (0.92831pt too wide) in paragraph at lines 51--52
-[]\TU/Arial(0)/b/n/13 Batch pro-cess-ing\TU/Arial(0)/m/n/13 : Script đánh in-d
-ex hàng loạt trong in-dex-Ad-vanced-Data.ts 
+[26]
+Underfull \hbox (badness 7963) in paragraph at lines 7--9
+[]\TU/Arial(0)/m/n/13 Google De-vel-op-ers, ”Flut-ter Doc-u-men-ta-tion - Buil
+d apps for any
  []
 
-
-
-[27<./image/thucnghiem/ngunghia.png>]
-<image/thucnghiem/hinhve.png, id=486, 976.24725pt x 875.06924pt>
-File: image/thucnghiem/hinhve.png Graphic file (type png)
-<use image/thucnghiem/hinhve.png>
-Package luatex.def Info: image/thucnghiem/hinhve.png  used on input line 57.
-(luatex.def)             Requested size: 455.24411pt x 408.06467pt.
-<image/thucnghiem/recommend.png, id=487, 560.69475pt x 562.5015pt>
-File: image/thucnghiem/recommend.png Graphic file (type png)
-<use image/thucnghiem/recommend.png>
-Package luatex.def Info: image/thucnghiem/recommend.png  used on input line 78.
-
-(luatex.def)             Requested size: 455.24411pt x 456.71376pt.
-
-
-[28<./image/thucnghiem/hinhve.png>]
-
-[29<./image/thucnghiem/recommend.png>]
-<image/thucnghiem/ai.png, id=498, 522.15076pt x 504.08325pt>
-File: image/thucnghiem/ai.png Graphic file (type png)
-<use image/thucnghiem/ai.png>
-Package luatex.def Info: image/thucnghiem/ai.png  used on input line 99.
-(luatex.def)             Requested size: 455.24411pt x 439.51035pt.
-
-
-[30<./image/thucnghiem/ai.png>]
-<image/thucnghiem/mail.png, id=504, 476.982pt x 518.53725pt>
-File: image/thucnghiem/mail.png Graphic file (type png)
-<use image/thucnghiem/mail.png>
-Package luatex.def Info: image/thucnghiem/mail.png  used on input line 120.
-(luatex.def)             Requested size: 455.24411pt x 494.91797pt.
-
-
-[31<./image/thucnghiem/mail.png>]
-Overfull \hbox (28.61469pt too wide) in paragraph at lines 140--141
-[]\TU/Arial(0)/b/n/13 So-cial ac-tions worker\TU/Arial(0)/m/n/13 : Xử lý like
-/-fol-low bất đồng bộ trong so-cialAc-tionsWorker.ts 
- []
-
-
-
-[32]
-<image/thucnghiem/Deployment.png, id=514, 1443.14156pt x 1477.01813pt>
-File: image/thucnghiem/Deployment.png Graphic file (type png)
-<use image/thucnghiem/Deployment.png>
-Package luatex.def Info: image/thucnghiem/Deployment.png  used on input line 14
-8.
-(luatex.def)             Requested size: 455.24411pt x 465.91676pt.
-
-
-[33<./image/thucnghiem/Deployment.png>]) (./components/Section-VIII/main.tex
-
-[34]
-
-[35]
-
-[36]) (./components/reference.tex
-
-[37])
+)
 \tf@thm=\write9
 
 \openout9 = main.thm
 
 
-[38
+[27
 
 ] (./main.aux)
  ***********
@@ -2439,20 +2347,20 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AC4F145D32225474339953469349DE16;10062.
+(rerunfilecheck)             Checksum: 001B6C9C64E76218888AAA176F0F90BB;11812.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51769 strings out of 476291
+ 51702 strings out of 476291
  125146,1977958 words of node,token memory allocated
  1029 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 158 glue_spe
 c, 7 attribute_list, 2 write nodes
-   avail lists: 1:1,2:1724,3:367,4:140,5:247,6:228,7:4278,8:52,9:1826,10:11,11:1
-03
- 72507 multiletter control sequences out of 65536+600000
- 78 fonts using 28364783 bytes
- 108i,11n,101p,830b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:1,2:1724,3:359,4:140,5:232,6:151,7:4248,8:36,9:1345,10:11,11:9
+1
+ 72474 multiletter control sequences out of 65536+600000
+ 79 fonts using 29108951 bytes
+ 108i,11n,101p,830b,741s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'table.3'
 
@@ -2460,13 +2368,13 @@ warning  (pdf backend): unreferenced destination with name 'table.2'
 
 warning  (pdf backend): unreferenced destination with name 'table.1'
 <c:/users/thanh/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmonolt1
-0-bold.otf><C:/Users/thanh/AppData/Local/Programs/MiKTeX/fonts/opentype/public/t
-ex-gyre-math/texgyretermes-math.otf><c:/users/thanh/appdata/local/programs/mikte
-x/fonts/opentype/public/lm/lmmono12-regular.otf><C:/WINDOWS/Fonts/arialbd.ttf><C
+0-bold.otf><c:/users/thanh/appdata/local/programs/miktex/fonts/opentype/public/l
+m/lmmono12-regular.otf><C:/Users/thanh/AppData/Local/Programs/MiKTeX/fonts/opent
+ype/public/tex-gyre-math/texgyretermes-math.otf><C:/WINDOWS/Fonts/arialbd.ttf><C
 :/WINDOWS/Fonts/arial.ttf>
-Output written on main.pdf (43 pages, 2215379 bytes).
+Output written on main.pdf (32 pages, 302825 bytes).
 
-PDF statistics: 600 PDF objects out of 1000 (max. 8388607)
- 152 named destinations out of 1000 (max. 131072)
- 440 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 564 PDF objects out of 1000 (max. 8388607)
+ 142 named destinations out of 1000 (max. 131072)
+ 496 words of extra memory for PDF output out of 10000 (max. 100000000)
 

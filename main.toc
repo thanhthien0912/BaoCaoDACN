@@ -1,6 +1,6 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {section}{LỜI MỞ ĐẦU}{1}{Doc-Start}%
-\contentsline {section}{LỜI CAM ĐOAN}{2}{Doc-Start}%
+\contentsline {section}{LỜI MỞ ĐẦU}{1}{section*.1}%
+\contentsline {section}{LỜI CAM ĐOAN}{2}{section*.2}%
 \contentsline {section}{\numberline {1}\textbf {TỔNG QUAN VỀ NỀN TẢNG VÍ ĐIỆN TỬ SINH VIÊN}}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Giới thiệu}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Tổng quan hệ thống}{3}{subsection.1.2}%
@@ -38,17 +38,24 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Biểu đồ Activity (Hoạt động)}{15}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Biểu đồ Sequence (Tuần tự)}{16}{subsubsection.3.2.2}%
 \contentsline {section}{\numberline {4}\textbf {THIẾT KẾ CƠ SỞ DỮ LIỆU}}{17}{section.4}%
-\contentsline {section}{\numberline {5}\textbf {KẾT QUẢ THỰC NGHIỆM}}{26}{section.5}%
-\contentsline {section}{\numberline {6}\textbf {KẾT LUẬN VÀ KIẾN NGHỊ}}{35}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Kết Luận}{35}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Tổng kết quá trình thực hiện đồ án}{35}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Kết quả đạt được}{35}{subsubsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.3}Hạn chế và thách thức}{36}{subsubsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.2}Kiến nghị và hướng phát triển}{36}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Phát triển ứng dụng di động}{36}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Nâng cấp hệ thống gợi ý nội dung}{36}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Triển khai AI Chatbot học tự động}{36}{subsubsection.6.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.4}Tối ưu cơ chế làm mới Redis Cache}{36}{subsubsection.6.2.4}%
-\contentsline {subsubsection}{\numberline {6.2.5}Cải tiến hệ thống Post Recommendation}{37}{subsubsection.6.2.5}%
-\contentsline {subsubsection}{\numberline {6.2.6}Phát triển ChatboxAI nội bộ}{37}{subsubsection.6.2.6}%
-\contentsline {section}{TÀI LIỆU THAM KHẢO}{38}{subsubsection.6.2.6}%
+\contentsline {subsection}{\numberline {4.1}Thiết kế sơ đồ E-R}{17}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Thiết kế chi tiết Collection (MongoDB)}{17}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Mô hình quan hệ (Schema Diagram)}{20}{subsection.4.3}%
+\contentsline {section}{\numberline {5}\textbf {KẾT QUẢ THỰC NGHIỆM}}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Môi trường và Công cụ thực nghiệm}{21}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Kết quả triển khai Ứng dụng Sinh viên (Mobile App)}{21}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}1. Đăng nhập và Màn hình chính}{21}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}2. Chức năng Nạp tiền qua MoMo}{21}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}3. Chức năng Thanh toán NFC}{22}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}4. Chatbot AI Tư vấn tài chính}{22}{subsubsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.3}Kết quả triển khai Web Quản trị (Admin Portal)}{23}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}1. Dashboard Thống kê}{23}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}2. Quản lý Giao dịch và Sinh viên}{24}{subsubsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.4}Đánh giá hiệu năng}{24}{subsection.5.4}%
+\contentsline {section}{\numberline {6}\textbf {KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN}}{25}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Kết luận}{25}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Hướng phát triển}{26}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}1. Mở rộng tính năng và Nền tảng}{26}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}2. Hệ sinh thái tài chính mở rộng}{26}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}3. Ứng dụng Blockchain}{26}{subsubsection.6.2.3}%
+\contentsline {section}{TÀI LIỆU THAM KHẢO}{27}{subsubsection.6.2.3}%

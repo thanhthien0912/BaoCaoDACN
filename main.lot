@@ -2,11 +2,8 @@
 \contentsline {table}{\numberline {1}{\ignorespaces Đặc tả Use Case: Thanh toán NFC}}{13}{table.1}%
 \contentsline {table}{\numberline {2}{\ignorespaces Đặc tả Use Case: Nạp tiền qua MoMo}}{14}{table.2}%
 \contentsline {table}{\numberline {3}{\ignorespaces Đặc tả Use Case: Chat với AI}}{14}{table.3}%
-\contentsline {table}{\numberline {4}{\ignorespaces Cấu trúc của bảng \texttt {posts}}}{17}{table.caption.5}%
-\contentsline {table}{\numberline {5}{\ignorespaces Cấu trúc của bảng \texttt {chatmessages}}}{17}{table.caption.6}%
-\contentsline {table}{\numberline {6}{\ignorespaces Cấu trúc của bảng \texttt {threads}}}{18}{table.caption.7}%
-\contentsline {table}{\numberline {7}{\ignorespaces Cấu trúc của bảng \texttt {reports}}}{19}{table.caption.8}%
-\contentsline {table}{\numberline {8}{\ignorespaces Cấu trúc của bảng \texttt {verifications}}}{20}{table.caption.9}%
-\contentsline {table}{\numberline {9}{\ignorespaces Cấu trúc của bảng \texttt {messages}}}{21}{table.caption.10}%
-\contentsline {table}{\numberline {10}{\ignorespaces Cấu trúc của bảng \texttt {users}}}{22}{table.caption.11}%
-\contentsline {table}{\numberline {11}{\ignorespaces Cấu trúc của bảng \texttt {notifications}}}{23}{table.caption.12}%
+\contentsline {table}{\numberline {4}{\ignorespaces Cấu trúc Collection Users}}{17}{table.caption.7}%
+\contentsline {table}{\numberline {5}{\ignorespaces Cấu trúc Collection Wallets}}{18}{table.caption.8}%
+\contentsline {table}{\numberline {6}{\ignorespaces Cấu trúc Collection Transactions}}{18}{table.caption.9}%
+\contentsline {table}{\numberline {7}{\ignorespaces Cấu trúc Collection ChatSessions}}{19}{table.caption.10}%
+\contentsline {table}{\numberline {8}{\ignorespaces Bảng đánh giá hiệu năng hệ thống}}{24}{table.caption.17}%

@@ -1,241 +1,148 @@
 \newpage
 \section{\textbf{THIẾT KẾ CƠ SỞ DỮ LIỆU}}
 
-\textbf{1. posts}
-
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|p{4cm}|p{4cm}|p{2cm}|p{2cm}|p{2cm}|}
-\hline
-\textbf{Name} & \textbf{Data Type} & \textbf{Array} & \textbf{Key} & \textbf{Required} \\
-\hline
-\_id         & objectId &  & Yes & Yes \\
-postedBy     & objectId &  &     & Yes \\
-text         & string   &  &     & Yes \\
-text\_vector & double   & Yes &     & Yes \\
-img          & string   &  &     & Yes \\
-likes        & objectId & Yes &     & Yes \\
-likesCount   & double   &  &     & Yes \\
-replies      & string   & Yes &     & Yes \\
-createdAt    & date     &  &     & Yes \\
-updatedAt    & date     &  &     & Yes \\
-\hline
-\end{tabular}
-\caption{Cấu trúc của bảng \texttt{posts}}
-\end{table}
-
-
-\textbf{2. chatmessages}
-
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|p{4cm}|p{4cm}|p{2cm}|p{2cm}|p{2cm}|}
-\hline
-\textbf{Name} & \textbf{Data Type} & \textbf{Array} & \textbf{Key} & \textbf{Required} \\
-\hline
-\_id         & objectId &  & Yes & Yes \\
-userId       & objectId &  &     & Yes \\
-isUser       & bool     &  &     & Yes \\
-message      & string   &  &     & Yes \\
-createdAt    & date     &  &     & Yes \\
-updatedAt    & date     &  &     & Yes \\
-\hline
-\end{tabular}
-\caption{Cấu trúc của bảng \texttt{chatmessages}}
-\end{table}
-
-\newpage
-\textbf{3. threads}
-
-
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|p{4cm}|p{4cm}|p{2cm}|p{2cm}|p{2cm}|}
-\hline
-\textbf{Name} & \textbf{Data Type} & \textbf{Array} & \textbf{Key} & \textbf{Required} \\
-\hline
-\_id         & objectId &  & Yes & Yes \\
-userId       & objectId &  &     & Yes \\
-createdAt    & date     &  &     & Yes \\
-lastUsed     & date     &  &     & Yes \\
-threadId     & string   &  &     & Yes \\
-\hline
-\end{tabular}
-\caption{Cấu trúc của bảng \texttt{threads}}
-\end{table}
-
-\newpage
-\textbf{4. reports}
-
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|p{4cm}|p{4cm}|p{2cm}|p{2cm}|p{2cm}|}
-\hline
-\textbf{Name} & \textbf{Data Type} & \textbf{Array} & \textbf{Key} & \textbf{Required} \\
-\hline
-\_id               & objectId &  & Yes & Yes \\
-reportedBy         & any      &  &     & Yes \\
-reportedContent    & objectId &  &     & Yes \\
-contentType        & string   &  &     & Yes \\
-reason             & string   &  &     & Yes \\
-details            & string   &  &     & Yes \\
-status             & string   &  &     & Yes \\
-createdAt          & date     &  &     & Yes \\
-updatedAt          & date     &  &     & Yes \\
-resolvedBy         & objectId &  &     & Yes \\
-postId             & objectId &  &     & Yes \\
-postContent        & string   &  &     & Yes \\
-moderationResult   & string   &  &     & Yes \\
-resolution         & string   &  &     & Yes \\
-severity           & string   &  &     & Yes \\
-reportedByUsername & string   &  &     & Yes \\
-postImage          & any      &  &     & Yes \\
-\hline
-\end{tabular}
-\caption{Cấu trúc của bảng \texttt{reports}}
-\end{table}
-
-
-\newpage
-\textbf{5. verifications}
-
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|p{4cm}|p{4cm}|p{2cm}|p{2cm}|p{2cm}|}
-\hline
-\textbf{Name} & \textbf{Data Type} & \textbf{Array} & \textbf{Key} & \textbf{Required} \\
-\hline
-\_id         & objectId &  & Yes & Yes \\
-userId       & objectId &  &     & Yes \\
-email        & string   &  &     & Yes \\
-code         & string   &  &     & Yes \\
-createdAt    & date     &  &     & Yes \\
-\hline
-\end{tabular}
-\caption{Cấu trúc của bảng \texttt{verifications}}
-\end{table}
-
-\newpage
-\textbf{6. messages}
-
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|p{4cm}|p{4cm}|p{2cm}|p{2cm}|p{2cm}|}
-\hline
-\textbf{Name} & \textbf{Data Type} & \textbf{Array} & \textbf{Key} & \textbf{Required} \\
-\hline
-\_id          & objectId &  & Yes & Yes \\
-sender        & objectId &  &     & Yes \\
-recipient     & objectId &  &     & Yes \\
-messageType   & string   &  &     & Yes \\
-text          & string   &  &     & Yes \\
-media         & null     &  &     &     \\
-file          & string   &  &     &     \\
-fileName      & null     &  &     &     \\
-fileSize      & null     &  &     &     \\
-fileType      & null     &  &     &     \\
-thumbnailUrl  & null     &  &     &     \\
-duration      & null     &  &     &     \\
-read          & bool     &  &     & Yes \\
-createdAt     & date     &  &     & Yes \\
-updatedAt     & date     &  &     & Yes \\
-cloudinary    & string   &  &     & Yes \\
-fileInfo      & string   &  &     & Yes \\
-mediaDetails  & string   &  &     & Yes \\
-status        & string   &  &     & Yes \\
-img           & string   &  &     & Yes \\
-pending       & bool     &  &     & Yes \\
-\hline
-\end{tabular}
-\caption{Cấu trúc của bảng \texttt{messages}}
-\end{table}
-\newpage
-\textbf{7. users}
-
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|p{4cm}|p{4cm}|p{2cm}|p{2cm}|p{2cm}|}
-\hline
-\textbf{Name} & \textbf{Data Type} & \textbf{Array} & \textbf{Key} & \textbf{Required} \\
-\hline
-\_id             & objectId &     & Yes & Yes \\
-name            & string   &     &     & Yes \\
-username        & string   &     &     & Yes \\
-email           & string   &     &     & Yes \\
-password        & string   &     &     & Yes \\
-profilePic      & string   &     &     & Yes \\
-followers       & string   & Yes &     & Yes \\
-following       & string   & Yes &     & Yes \\
-bio             & string   &     &     & Yes \\
-isFrozen        & bool     &     &     & Yes \\
-createdAt       & date     &     &     & Yes \\
-updatedAt       & date     &     &     & Yes \\
-isEmailVerified & any      &     &     & Yes \\
-viewedPosts     & objectId & Yes &     & Yes \\
-lastActive      & date     &     &     & Yes \\
-totalSessionTime & double   &     &     & Yes \\
-likes           & objectId & Yes &     & Yes \\
-isAdmin         & bool     &     &     & Yes \\
-\hline
-\end{tabular}
-\caption{Cấu trúc của bảng \texttt{users}}
-\end{table}
-\newpage
-\textbf{8. notifications}
-
-\begin{table}[H]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|p{4cm}|p{4cm}|p{2cm}|p{2cm}|p{2cm}|}
-\hline
-\textbf{Name} & \textbf{Data Type} & \textbf{Array} & \textbf{Key} & \textbf{Required} \\
-\hline
-\_id         & objectId &  & Yes & Yes \\
-recipient    & objectId &  &     & Yes \\
-sender       & objectId &  &     & Yes \\
-type         & string   &  &     & Yes \\
-post         & objectId &  &     & Yes \\
-read         & bool     &  &     & Yes \\
-createdAt    & date     &  &     & Yes \\
-updatedAt    & date     &  &     & Yes \\
-\hline
-\end{tabular}
-\caption{Cấu trúc của bảng \texttt{notifications}}
-\end{table}
-
-\textbf{9. Quan hệ giữa các bảng}
-
+\subsection{Thiết kế sơ đồ E-R}
+Dựa trên các yêu cầu phân tích, hệ thống bao gồm các thực thể chính: Người dùng (Users), Ví (Wallets), Giao dịch (Transactions) và Phiên chat (ChatSessions). Mối quan hệ giữa chúng được mô tả như sau:
 \begin{itemize}
-\item 1 User có thể tạo nhiều Posts (qua trường postedBy)
-\item 1 User có thể thích nhiều Posts (qua mảng likes)
-\item 1 User có thể xem nhiều Posts (qua mảng viewedPosts)
-\item 1 User có thể gửi nhiều Messages (qua trường sender)
-\item 1 User có thể nhận nhiều Messages (qua trường recipient)
-\item 1 User có thể nhận nhiều Notifications (qua trường recipient)
-\item 1 User có thể tạo nhiều Notifications (qua trường sender)
-\item 1 User có thể có nhiều Chatmessages (qua trường userId)
-\item 1 User có thể có nhiều Threads (qua trường userId)
-\item 1 Post có thể tạo nhiều Notifications (qua trường post)
-\item 1 Post có thể có nhiều Reports (qua trường postId)
-\item 1 User có thể tạo nhiều Reports (qua trường reportedBy)
-\item 1 User có thể xử lý nhiều Reports (qua trường resolvedBy)
-\item 1 Post có thể có nhiều Replies (qua mảng replies)
-\item 1 User có thể theo dõi nhiều Users khác (qua mảng following)
-\item 1 User có thể được nhiều Users khác theo dõi (qua mảng followers)
-\item 1 User có thể có nhiều Verifications (qua trường userId)
+    \item Một \textbf{User} có duy nhất một \textbf{Wallet}.
+    \item Một \textbf{Wallet} có thể thực hiện nhiều \textbf{Transactions}.
+    \item Một \textbf{User} có thể có nhiều \textbf{ChatSessions} với AI.
 \end{itemize}
-Từ đó xây dựng biểu đồ cơ sở dữ liệu như hình vẽ dưới:
+
+\subsection{Thiết kế chi tiết Collection (MongoDB)}
+
+\textbf{1. Users (Người dùng)}
+Lưu trữ thông tin cá nhân và tài khoản của sinh viên và quản trị viên.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{3cm}|p{3cm}|p{2cm}|p{6cm}|}
+\hline
+\textbf{Tên trường} & \textbf{Kiểu dữ liệu} & \textbf{Bắt buộc} & \textbf{Mô tả} \\
+\hline
+\_id & ObjectId & Có & Khóa chính \\
+\hline
+studentCode & String & Có & Mã số sinh viên (Unique) \\
+\hline
+fullName & String & Có & Họ và tên đầy đủ \\
+\hline
+email & String & Có & Email trường cấp \\
+\hline
+password & String & Có & Mật khẩu đã mã hóa (bcrypt) \\
+\hline
+phoneNumber & String & Có & Số điện thoại liên lạc \\
+\hline
+role & String & Có & Vai trò: "STUDENT" hoặc "ADMIN" \\
+\hline
+isActive & Boolean & Có & Trạng thái kích hoạt tài khoản \\
+\hline
+createdAt & Date & Có & Thời gian tạo \\
+\hline
+\end{tabular}
+\caption{Cấu trúc Collection Users}
+\end{table}
+
+\textbf{2. Wallets (Ví điện tử)}
+Lưu trữ thông tin số dư và trạng thái ví của sinh viên.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{3cm}|p{3cm}|p{2cm}|p{6cm}|}
+\hline
+\textbf{Tên trường} & \textbf{Kiểu dữ liệu} & \textbf{Bắt buộc} & \textbf{Mô tả} \\
+\hline
+\_id & ObjectId & Có & Khóa chính \\
+\hline
+userId & ObjectId & Có & Tham chiếu đến Users \\
+\hline
+balance & Number & Có & Số dư hiện tại (VNĐ) \\
+\hline
+currency & String & Có & Đơn vị tiền tệ (Default: "VND") \\
+\hline
+status & String & Có & Trạng thái: "ACTIVE", "LOCKED" \\
+\hline
+lastTransaction & Date & Không & Thời gian giao dịch gần nhất \\
+\hline
+updatedAt & Date & Có & Thời gian cập nhật số dư cuối cùng \\
+\hline
+\end{tabular}
+\caption{Cấu trúc Collection Wallets}
+\end{table}
+
+\textbf{3. Transactions (Giao dịch)}
+Lưu trữ lịch sử nạp tiền và thanh toán.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{3cm}|p{3cm}|p{2cm}|p{6cm}|}
+\hline
+\textbf{Tên trường} & \textbf{Kiểu dữ liệu} & \textbf{Bắt buộc} & \textbf{Mô tả} \\
+\hline
+\_id & ObjectId & Có & Khóa chính \\
+\hline
+walletId & ObjectId & Có & Tham chiếu đến Wallets \\
+\hline
+type & String & Có & Loại GD: "DEPOSIT\_MOMO", "PAYMENT\_NFC" \\
+\hline
+amount & Number & Có & Số tiền giao dịch \\
+\hline
+status & String & Có & Trạng thái: "PENDING", "SUCCESS", "FAILED" \\
+\hline
+description & String & Có & Nội dung giao dịch \\
+\hline
+metadata & Object & Không & Dữ liệu chi tiết (Mã GD MoMo, ID thiết bị POS) \\
+\hline
+createdAt & Date & Có & Thời gian thực hiện \\
+\hline
+\end{tabular}
+\caption{Cấu trúc Collection Transactions}
+\end{table}
+
+\textbf{4. ChatSessions (Hội thoại AI)}
+Lưu trữ lịch sử trò chuyện giữa sinh viên và trợ lý ảo Gemini để duy trì ngữ cảnh.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|p{3cm}|p{3cm}|p{2cm}|p{6cm}|}
+\hline
+\textbf{Tên trường} & \textbf{Kiểu dữ liệu} & \textbf{Bắt buộc} & \textbf{Mô tả} \\
+\hline
+\_id & ObjectId & Có & Khóa chính \\
+\hline
+userId & ObjectId & Có & Tham chiếu đến Users \\
+\hline
+messages & Array & Có & Mảng các tin nhắn (role: user/model, content) \\
+\hline
+summary & String & Không & Tóm tắt nội dung hội thoại \\
+\hline
+createdAt & Date & Có & Thời gian bắt đầu \\
+\hline
+updatedAt & Date & Có & Thời gian tin nhắn cuối cùng \\
+\hline
+\end{tabular}
+\caption{Cấu trúc Collection ChatSessions}
+\end{table}
+
+\newpage
+\subsection{Mô hình quan hệ (Schema Diagram)}
+Hình dưới đây mô tả mối quan hệ tham chiếu giữa các collection trong cơ sở dữ liệu MongoDB.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{image/MoHinh/13.png}
-    \caption{Hình ảnh Quan hệ giữa các bảng}
-    \label{fig:quan_he_giua_cac_banng}
+    % Placeholder cho sơ đồ ER/Schema
+    \fbox{\begin{minipage}{0.9\textwidth}
+        \centering
+        \vspace{2cm}
+        \textbf{[SƠ ĐỒ QUAN HỆ CƠ SỞ DỮ LIỆU - MONGODB SCHEMA]} \\
+        User (1) --- (1) Wallet \\
+        Wallet (1) --- (n) Transactions \\
+        User (1) --- (n) ChatSessions
+        \vspace{2cm}
+    \end{minipage}}
+    \caption{Sơ đồ quan hệ cơ sở dữ liệu}
+    \label{fig:db_schema}
 \end{figure}
